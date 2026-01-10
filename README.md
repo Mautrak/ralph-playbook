@@ -6,7 +6,7 @@ I always try to pay attention to the crazy-smart insights [@GeoffreyHuntley](htt
 
 [@mattpocockuk](https://x.com/mattpocockuk/status/2008200878633931247) and [@ryancarson](https://x.com/ryancarson/status/2008548371712135632)'s overviews helped a lot - right until Geoff came in and [said 'nah'](https://x.com/GeoffreyHuntley/status/2008731415312236984).
 
-<img src="references/nah.png" alt="nah" width="400" />
+<img src="references/nah.png" alt="nah" width="500" />
 
 ## So what is the optimal way to Ralph?
 
