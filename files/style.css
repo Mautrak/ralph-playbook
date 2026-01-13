@@ -1,0 +1,641 @@
+/* ==========================================================================
+   Russian Language Textbook - Penguin Books Theme
+   ========================================================================== */
+
+:root {
+    /* Penguin Theme Colors - Orange/Black/White */
+    --penguin-orange: #ff6b35;
+    --penguin-orange-light: #ff8c5a;
+    --penguin-orange-dark: #e55a2b;
+    --penguin-black: #1a1a1a;
+    --penguin-white: #ffffff;
+    --penguin-cream: #faf8f5;
+
+    /* Text Colors */
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6a6a6a;
+    --text-light: #8a8a8a;
+
+    /* Backgrounds */
+    --bg-primary: #ffffff;
+    --bg-subtle: #faf8f5;
+    --bg-muted: #f5f3f0;
+    --bg-highlight: #fff8f5;
+
+    /* Borders */
+    --border-light: #e5e2df;
+    --border-medium: #d5d2cf;
+    --border-strong: #b5b2af;
+
+    /* Typography */
+    --font-heading: 'Georgia', 'Times New Roman', serif;
+    --font-body: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'Consolas', 'Monaco', monospace;
+    --font-cyrillic: 'Times New Roman', 'DejaVu Serif', serif;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   Book Container Layout
+   ========================================================================== */
+
+.book-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg);
+    background: var(--bg-primary);
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .book-container {
+        padding: var(--space-3xl) var(--space-2xl);
+    }
+}
+
+/* ==========================================================================
+   Penguin Header
+   ========================================================================== */
+
+.penguin-header {
+    background: var(--penguin-orange);
+    color: var(--penguin-white);
+    padding: var(--space-lg) var(--space-xl);
+    margin: calc(-1 * var(--space-xl)) calc(-1 * var(--space-lg)) var(--space-2xl);
+    text-align: center;
+    border-bottom: 4px solid var(--penguin-black);
+}
+
+@media (min-width: 768px) {
+    .penguin-header {
+        margin: calc(-1 * var(--space-3xl)) calc(-1 * var(--space-2xl)) var(--space-2xl);
+        padding: var(--space-xl) var(--space-2xl);
+    }
+}
+
+.penguin-header h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 var(--space-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.penguin-header .subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.penguin-header .page-number {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: var(--space-sm);
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    line-height: 1.3;
+    margin-top: var(--space-2xl);
+    margin-bottom: var(--space-md);
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.6rem; border-bottom: 2px solid var(--penguin-orange); padding-bottom: var(--space-sm); }
+h3 { font-size: 1.3rem; color: var(--penguin-orange-dark); }
+h4 { font-size: 1.1rem; }
+
+p {
+    margin: 0 0 var(--space-md);
+}
+
+/* Russian/Cyrillic text styling */
+.cyrillic, .russian {
+    font-family: var(--font-cyrillic);
+    font-size: 1.1em;
+    color: var(--penguin-black);
+}
+
+.transliteration {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 0.95em;
+}
+
+.translation {
+    color: var(--text-muted);
+    font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Grammar Box - Core Component
+   ========================================================================== */
+
+.grammar-box {
+    background: var(--bg-subtle);
+    border-left: 4px solid var(--penguin-orange);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-lg);
+    margin: var(--space-xl) 0;
+    box-shadow: var(--shadow-sm);
+}
+
+.grammar-box h3, .grammar-box h4 {
+    color: var(--penguin-orange-dark);
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+    font-size: 1.15rem;
+}
+
+.grammar-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Grammar Box Color Variants */
+.grammar-box-blue {
+    background-color: #e8f4fc;
+    border-left-color: #2980b9;
+}
+
+.grammar-box-blue h3, .grammar-box-blue h4 {
+    color: #1a5276;
+}
+
+.grammar-box-green {
+    background-color: #e8f8f0;
+    border-left-color: #27ae60;
+}
+
+.grammar-box-green h3, .grammar-box-green h4 {
+    color: #1e8449;
+}
+
+.grammar-box-purple {
+    background-color: #f4e8fc;
+    border-left-color: #8e44ad;
+}
+
+.grammar-box-purple h3, .grammar-box-purple h4 {
+    color: #6c3483;
+}
+
+.grammar-box-orange {
+    background-color: #fef5e8;
+    border-left-color: #e67e22;
+}
+
+.grammar-box-orange h3, .grammar-box-orange h4 {
+    color: #b9560e;
+}
+
+/* ==========================================================================
+   Warning and Alert Boxes
+   ========================================================================== */
+
+.warning-box {
+    background-color: #fef9e7;
+    border-left: 4px solid #f39c12;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.warning-box::before {
+    content: "Dikkat!";
+    font-weight: 700;
+    color: #b7950b;
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.grammar-box-warning {
+    background-color: #fdedec;
+    border-left: 4px solid #e74c3c;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.grammar-box-warning::before {
+    content: "Onemli Uyari!";
+    font-weight: 700;
+    color: #c0392b;
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+/* ==========================================================================
+   Tip Box
+   ========================================================================== */
+
+.tip-box {
+    background-color: #e8f6f3;
+    border-left: 4px solid #1abc9c;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.tip-box::before {
+    content: "Ipucu";
+    font-weight: 700;
+    color: #148f77;
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+/* ==========================================================================
+   Cultural Note Box
+   ========================================================================== */
+
+.cultural-note {
+    background: linear-gradient(135deg, #fff8f5 0%, #fef5f0 100%);
+    border: 1px solid var(--penguin-orange-light);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-xl) 0;
+    position: relative;
+}
+
+.cultural-note::before {
+    content: "Kulturel Not";
+    font-weight: 700;
+    color: var(--penguin-orange-dark);
+    display: block;
+    margin-bottom: var(--space-sm);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   Drill Section
+   ========================================================================== */
+
+.drill-section {
+    background-color: var(--bg-muted);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+
+.drill-section h3 {
+    color: var(--text-primary);
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.drill-section h3::before {
+    content: "Aliştirma";
+    background: var(--penguin-orange);
+    color: white;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.drill-section ol, .drill-section ul {
+    margin: 0;
+    padding-left: var(--space-lg);
+}
+
+.drill-section li {
+    margin-bottom: var(--space-sm);
+    padding: var(--space-xs) 0;
+}
+
+.drill-section .answer {
+    color: var(--text-muted);
+    font-style: italic;
+    display: none;
+}
+
+.drill-section .answer.show {
+    display: inline;
+}
+
+/* ==========================================================================
+   Vocabulary Table
+   ========================================================================== */
+
+.vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-xl) 0;
+    font-size: 0.95rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.vocab-table thead {
+    background: var(--penguin-orange);
+    color: white;
+}
+
+.vocab-table th {
+    padding: var(--space-md);
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
+.vocab-table td {
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.vocab-table tbody tr:nth-child(even) {
+    background-color: var(--bg-subtle);
+}
+
+.vocab-table tbody tr:hover {
+    background-color: var(--bg-highlight);
+}
+
+.vocab-table .cyrillic {
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Conjugation Table
+   ========================================================================== */
+
+.conjugation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-lg) 0;
+    font-size: 0.9rem;
+}
+
+.conjugation-table th,
+.conjugation-table td {
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--border-medium);
+    text-align: center;
+}
+
+.conjugation-table thead th {
+    background: var(--penguin-black);
+    color: white;
+    font-weight: 600;
+}
+
+.conjugation-table tbody th {
+    background: var(--bg-muted);
+    font-weight: 600;
+    text-align: left;
+}
+
+.conjugation-table .highlight {
+    background-color: var(--bg-highlight);
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Example Boxes
+   ========================================================================== */
+
+.example-box {
+    background: var(--bg-subtle);
+    border-radius: var(--radius-md);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+}
+
+.example-box .russian {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.example-box .transliteration {
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.example-box .translation {
+    display: block;
+}
+
+/* Dialogue styling */
+.dialogue {
+    margin: var(--space-lg) 0;
+}
+
+.dialogue-line {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+    padding: var(--space-sm) 0;
+}
+
+.dialogue-speaker {
+    font-weight: 700;
+    color: var(--penguin-orange-dark);
+    min-width: 80px;
+}
+
+.dialogue-text .russian {
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+.page-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--space-3xl);
+    padding-top: var(--space-xl);
+    border-top: 2px solid var(--border-light);
+}
+
+.page-navigation a {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--penguin-orange);
+    text-decoration: none;
+    font-weight: 600;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    transition: all 0.2s ease;
+}
+
+.page-navigation a:hover {
+    background: var(--bg-highlight);
+    color: var(--penguin-orange-dark);
+}
+
+.page-navigation .prev::before {
+    content: "←";
+}
+
+.page-navigation .next::after {
+    content: "→";
+}
+
+/* ==========================================================================
+   Phonetics Section
+   ========================================================================== */
+
+.phonetics-box {
+    background: #f0f4f8;
+    border: 1px solid #c5d3e0;
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-lg) 0;
+}
+
+.phonetics-box h4 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.ipa {
+    font-family: 'Lucida Sans Unicode', 'DejaVu Sans', sans-serif;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+/* ==========================================================================
+   Summary Box
+   ========================================================================== */
+
+.summary-box {
+    background: linear-gradient(135deg, var(--bg-subtle) 0%, var(--bg-muted) 100%);
+    border: 2px solid var(--penguin-orange);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-2xl) 0;
+}
+
+.summary-box h3 {
+    color: var(--penguin-orange-dark);
+    margin-top: 0;
+}
+
+.summary-box ul {
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+    .book-container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .penguin-header {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .page-navigation {
+        display: none;
+    }
+
+    .drill-section .answer {
+        display: inline !important;
+    }
+}
+
+/* ==========================================================================
+   Responsive Adjustments
+   ========================================================================== */
+
+@media (max-width: 600px) {
+    .book-container {
+        padding: var(--space-md);
+    }
+
+    .penguin-header {
+        margin: calc(-1 * var(--space-md));
+        margin-bottom: var(--space-lg);
+        padding: var(--space-md);
+    }
+
+    .penguin-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .vocab-table {
+        font-size: 0.85rem;
+    }
+
+    .vocab-table th,
+    .vocab-table td {
+        padding: var(--space-sm);
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+}
