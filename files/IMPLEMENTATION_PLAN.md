@@ -336,7 +336,7 @@ Before marking ANY page complete, verify:
 
 ### Medium (Month 1)
 6. [ ] Fix INADEQUATE pages (06-22) → 15KB each
-7. [~] Create new Playbook pages 06-16 (page_06 ✅ DONE, page_07 ✅ DONE, page_08 ✅ DONE, page_09 ✅ DONE, page_10 ✅ DONE, page_11 ✅ DONE, page_12 ✅ DONE, page_13 ✅ DONE, page_14 ✅ DONE, page_15 ✅ DONE)
+7. [x] Create new Playbook pages 06-16 ✅ ALL COMPLETE (page_06 ✅, page_07 ✅, page_08 ✅, page_09 ✅, page_10 ✅, page_11 ✅, page_12 ✅, page_13 ✅, page_14 ✅, page_15 ✅, page_16 ✅)
 
 ### Ongoing (Month 2+)
 8. [ ] Polish BORDERLINE pages (01-05, 37, 39, etc.)
@@ -378,6 +378,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | page_13.html | **NEW** - Yer ve Yon / Location & Direction (38.5KB) ✅ GOLD STANDARD - Где vs Куда distinction, Prepositional Case, Accusative with direction, В vs На prepositions, location adverbs, Откуда + Genitive, К + Dative for people, position verbs (стоять/лежать/сидеть/висеть), direction giving, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_14.html | **NEW** - Zaman Ifadeleri / Time Expressions (42.6KB) ✅ GOLD STANDARD - Basic time adverbs (сегодня/вчера/завтра), days of week with в+Acc and по+Dat, months with Prepositional, seasons with Instrumental, clock time, time prepositions (через/после/до/перед), day parts, frequency expressions, plan-making phrases, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_15.html | **NEW** - Sifatlar / Adjectives (49.9KB) ✅ GOLD STANDARD - Long vs short form adjectives, intensifiers (очень/слишком/довольно), color adjectives with синий vs голубой distinction, eye/hair color compounds, compliment patterns (Какая ты красивая!), advanced physical/personality adjectives, diplomatic negation, 2 dialogues, 7 drills, 2 cultural notes |
+| 2026-01-26 | page_16.html | **NEW** - Karsilastirma / Comparison (50.3KB) ✅ GOLD STANDARD - Comparative formation (-ее/-ей), consonant mutations (к→ч, г→ж, х→ш, ст→щ), irregular comparatives (лучше/хуже/больше/меньше), superlative with самый, чем construction vs genitive, degree modifiers (гораздо/намного/немного), equality with такой же...как, preference expressions (больше нравится/предпочитаю), по- softening prefix, age comparison patterns, 2 dialogues, 7 drills, 2 cultural notes |
 
 ---
 
@@ -400,6 +401,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 20.0*
+*Document Version: 21.0*
 *Last Updated: 2026-01-26*
-*Project Status: Phase 3 IN PROGRESS - page_06.html through page_15.html complete, only page_16 remaining ✅*
+*Project Status: Phase 3 COMPLETE ✅ - All pages 06-16 finished! Phase 4 (pages 76+) and retroactive fixes (46-75, 23-45, 06-22) ready to begin.*
