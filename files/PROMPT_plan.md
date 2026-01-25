@@ -1,4 +1,4 @@
-0a. Study `progress_checklist.md`, `style.css`, and a sampling of `pages/*.html` (especially early vs recent pages) with up to 250 parallel Sonnet subagents to benchmark the current quality.
+0a. Study `progress_checklist.md`, `style.css`, and a sampling of `pages/*.html` UNDER ruscacalis directory. (C:\Users\Sturm\Downloads\ruscacalis\pages) (especially early vs recent pages) to benchmark the current quality. Prefer parallel reads where possible. New pages are available in C:\Users\Sturm\Downloads\ruscacalis\ralph-playbook\files\pages but main repo and project is in C:\Users\Sturm\Downloads\ruscacalis\pages. There is a severe mismatch between the two versions in content. Main idea behind the project is get user/student to a comfortable enough level in russian for the intended content of project one which is conversational Russian, flirting, nightlife, social dynamics, NSFW content. Mainly the NSFW content present and flirting. The purely academic approach on the second version that only contains 5 pages is useless for the context of the first project although the approach second project has is better. It's only lacking in content. We're trying to turn a non-speaker to whats present in pages 17-23. 
 0b. Study @IMPLEMENTATION_PLAN.md (if present).
 0c. Study `index.html` and `style.css` to understand the intended "Penguin Books" modern design system.
 0d. For reference, the application source code is in the root directory.
@@ -10,7 +10,7 @@
 
 2. **Sequential Planning:** After auditing existing pages, plan the next batch of new pages (76+) as usual.
 
-3. Use an Opus subagent to analyze findings and REWRITE @IMPLEMENTATION_PLAN.md. The plan should be a prioritized bullet list:
+3. Analyze findings and REWRITE @IMPLEMENTATION_PLAN.md. The plan should be a prioritized bullet list:
     *   **Phase 1: Retroactive Upgrades** (Fixing Pages 1-XX that failed the audit).
     *   **Phase 2: New Content** (Implementing Pages 76+ with the correct standard from the start).
 

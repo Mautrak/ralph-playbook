@@ -149,11 +149,11 @@ These are the "destination" pages that the entire textbook leads to. They need E
 |------|---------|-------|----------|
 | 17 | 24KB | Heavy Slang & Negotiation | ✅ GOLD |
 | 18 | ~22KB | BDSM / Control | ✅ GOLD |
-| 19 | 5.8KB | Oral / Exhibitionism | 🔴 HIGHEST |
-| 20 | 5.3KB | Negotiation II | 🔴 HIGHEST |
-| 21 | 5.4KB | Conflict & Ultimatum | 🔴 HIGHEST |
-| 22 | 5.4KB | Body Map II | 🔴 HIGHEST |
-| 23 | 4.2KB | Roleplay & Scripts | 🔴 HIGHEST |
+| 19 | 26.8KB | Oral & Social Media | ✅ GOLD |
+| 20 | 24.1KB | Negotiation & Finance | ✅ GOLD |
+| 21 | 21.9KB | Conflict & Ultimatum | ✅ GOLD |
+| 22 | 20.6KB | Body Map & Sensations | ✅ GOLD |
+| 23 | 48.1KB | Roleplay & Scripts | ✅ GOLD |
 
 ### 1.4 BORDERLINE/ACCEPTABLE PAGES (11 pages, 6-15KB)
 
@@ -328,7 +328,7 @@ Before marking ANY page complete, verify:
 
 ### Immediate (This Week)
 1. [x] Densify Playbook pages 02, 03, 05 → 18KB each ✅ COMPLETED 2026-01-25
-2. [ ] Fix Pages 17-23 (NSFW Core) → 15KB+ each
+2. [x] Fix Pages 17-23 (NSFW Core) → 15KB+ each ✅ ALL 7 PAGES GOLD STANDARD 2026-01-25
 3. [ ] Create CSS additions for custom classes
 
 ### High (Next 2 Weeks)
@@ -363,6 +363,11 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_05.html | **DENSIFIED** - Pronouns (~30KB) ✅ Case preview, себя, possessives, ты/вы warnings, 9 drills |
 | 2026-01-25 | page_17.html | **DENSIFIED** - Argo & Pazarlik (24KB) ✅ Mat system, body slang, negotiation, rejection phrases, drug slang, 7 drills, 3 cultural notes |
 | 2026-01-25 | page_18.html | **DENSIFIED** - BDSM & Kontrol (~22KB) ✅ Consent/safety vocab, imperative mood, positions, power dynamics, dirty talk, 2 dialogues, 6 drills, 2 cultural notes |
+| 2026-01-25 | page_19.html | **DENSIFIED** - Oral & Social Media (26.8KB) ✅ Imperative mood, oral verbs, position directives, social media vocab, vape culture, 2 dialogues, 6 drills |
+| 2026-01-25 | page_20.html | **DENSIFIED** - Negotiation & Finance (24.1KB) ✅ Money slang, price patterns, bargaining, payment methods, safety checks, 2 dialogues, 6 drills |
+| 2026-01-25 | page_21.html | **DENSIFIED** - Conflict & Ultimatum (21.9KB) ✅ Conditional sentences, defense/offense phrases, de-escalation, Mat usage, 2 dialogues, 5 drills |
+| 2026-01-25 | page_22.html | **DENSIFIED** - Body Map & Sensations (20.6KB) ✅ Detailed body parts, intimacy levels, sensory adjectives, touch verbs, reflexive себя, 2 dialogues, 5 drills |
+| 2026-01-25 | page_23.html | **DENSIFIED** - Roleplay & Scripts (48.1KB) ✅ Power dynamics, role titles, command grammar, permission/denial, praise/punishment, safe words, aftercare, 3 scenarios, 2 dialogues, 6 drills |
 
 ---
 
@@ -385,6 +390,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 8.0*
+*Document Version: 9.0*
 *Last Updated: 2026-01-25*
-*Project Status: NSFW CORE DENSIFICATION IN PROGRESS - PAGES 17-18 COMPLETE (2/7)*
+*Project Status: NSFW CORE COMPLETE - ALL 7 PAGES (17-23) GOLD STANDARD ✅*
