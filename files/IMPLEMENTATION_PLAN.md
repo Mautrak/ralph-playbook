@@ -380,6 +380,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | page_15.html | **NEW** - Sifatlar / Adjectives (49.9KB) ✅ GOLD STANDARD - Long vs short form adjectives, intensifiers (очень/слишком/довольно), color adjectives with синий vs голубой distinction, eye/hair color compounds, compliment patterns (Какая ты красивая!), advanced physical/personality adjectives, diplomatic negation, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_16.html | **NEW** - Karsilastirma / Comparison (50.3KB) ✅ GOLD STANDARD - Comparative formation (-ее/-ей), consonant mutations (к→ч, г→ж, х→ш, ст→щ), irregular comparatives (лучше/хуже/больше/меньше), superlative with самый, чем construction vs genitive, degree modifiers (гораздо/намного/немного), equality with такой же...как, preference expressions (больше нравится/предпочитаю), по- softening prefix, age comparison patterns, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_17.html | **NEW** - Argo ve Pazarlik / Slang & Negotiation (31.6KB) ✅ GOLD STANDARD - Mat system (4 root words), sexual activity verbs (politeness levels), body parts slang, negotiation phrases, rejection expressions (kibar→mat), drug slang, кайф etymology (from Turkish keyif!), reflexive verb conjugation, 2 dialogues, 8 drills, 3 cultural notes |
+| 2026-01-26 | page_18.html | **NEW** - BDSM ve Kontrol / BDSM & Control (36.9KB) ✅ GOLD STANDARD - Consent vocabulary (согласие, границы, безопасное слово), traffic light system, power dynamics roles (дом/саб/Госпожа/Хозяин), Imperative mood formation, position commands (На колени!, Руки за спину!), comparative adverbs for intensity, praise/discipline phrases, BDSM equipment vocab, aftercare expressions, 2 dialogues, 8 drills, 2 cultural notes |
 
 ---
 
@@ -402,6 +403,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 22.0*
+*Document Version: 23.0*
 *Last Updated: 2026-01-26*
-*Project Status: Phase 3 EXTENDED - Playbook pages 01-17 complete! Page 17 (Argo ve Pazarlik) added to bridge academic content to NSFW core. Continuing pages 18-23 in playbook.*
+*Project Status: Phase 3 EXTENDED - Playbook pages 01-18 complete! Page 18 (BDSM ve Kontrol) added. Continuing pages 19-23 in playbook.*
