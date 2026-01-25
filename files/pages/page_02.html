@@ -17,81 +17,363 @@
         <main>
             <h2>Rusca Sesli Harfler Sistemi</h2>
 
-            <p>Rusca'da 10 sesli harf var ama sadece 5 temel ses. Her sesin "sert" (hard) ve "yumusak" (soft) versiyonu mevcut.</p>
+            <p>Rusca'nin sesli harf sistemi, Turkce'den cok farkli ve bu fark sadece yazimda degil, telaffuzda da kendini gosteriyor. 10 sesli harf var ama gercekte sadece 5 temel ses mevcut. Her sesin iki versiyonu var: onceki sessiz harfi sertlestiren "sert sesli" ve onceki sessiz harfi yumusaklastiran "yumusak sesli". Bu kavram Turkce'de yok, o yuzden dikkatli ol!</p>
 
             <div class="grammar-box">
-                <h4>Sesli Harf Cifteri (Vowel Pairs)</h4>
+                <h4>Sesli Harf Ciftleri (Vowel Pairs)</h4>
+                <p>Her ses iki harfle temsil edilir. Sert sesli, onceki sessiz harfi oldugu gibi birakir; yumusak sesli ise onceki sessiz harfi palatalize eder (yumusaklastirir):</p>
                 <table class="conjugation-table">
                     <thead>
-                        <tr><th>Ses</th><th>Sert</th><th>Yumusak</th></tr>
+                        <tr><th>Temel Ses</th><th>Sert Sesli</th><th>Yumusak Sesli</th><th>Aciklama</th></tr>
                     </thead>
                     <tbody>
-                        <tr><td>/a/</td><td class="cyrillic">А</td><td class="cyrillic">Я (ya)</td></tr>
-                        <tr><td>/e/</td><td class="cyrillic">Э</td><td class="cyrillic">Е (ye)</td></tr>
-                        <tr><td>/i/</td><td class="cyrillic">Ы</td><td class="cyrillic">И</td></tr>
-                        <tr><td>/o/</td><td class="cyrillic">О</td><td class="cyrillic">Ё (yo)</td></tr>
-                        <tr><td>/u/</td><td class="cyrillic">У</td><td class="cyrillic">Ю (yu)</td></tr>
+                        <tr><td>/a/</td><td class="cyrillic">А а</td><td class="cyrillic">Я я (ya)</td><td>Я = yumusak + a sesi</td></tr>
+                        <tr><td>/e/</td><td class="cyrillic">Э э</td><td class="cyrillic">Е е (ye)</td><td>Е = yumusak + e sesi</td></tr>
+                        <tr><td>/i/</td><td class="cyrillic">Ы ы (iy)</td><td class="cyrillic">И и</td><td>Ы = sert i (bogaz i)</td></tr>
+                        <tr><td>/o/</td><td class="cyrillic">О о</td><td class="cyrillic">Ё ё (yo)</td><td>Ё daima vurgulu!</td></tr>
+                        <tr><td>/u/</td><td class="cyrillic">У у</td><td class="cyrillic">Ю ю (yu)</td><td>Ю = yumusak + u sesi</td></tr>
                     </tbody>
                 </table>
             </div>
 
+            <div class="grammar-box-purple">
+                <h4>Iotated Vowels (Kaynak Sesliler): Я, Е, Ё, Ю</h4>
+                <p>Bu dort sesli harf ozeldir cunku iki farkli telaffuza sahiptir:</p>
+                <table class="conjugation-table">
+                    <thead>
+                        <tr><th>Harf</th><th>Sessizden Sonra</th><th>Kelime Basinda / Sesliden Sonra</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cyrillic">Я</td>
+                            <td>/a/ + onceki sessizi yumusaklastirir<br><span class="cyrillic">мясо</span> = [m'asa] (et)</td>
+                            <td>/ya/ sesi verir<br><span class="cyrillic">яблоко</span> = [yablaka] (elma)</td>
+                        </tr>
+                        <tr>
+                            <td class="cyrillic">Е</td>
+                            <td>/e/ + onceki sessizi yumusaklastirir<br><span class="cyrillic">сел</span> = [s'el] (oturdu-erkek)</td>
+                            <td>/ye/ sesi verir<br><span class="cyrillic">ел</span> = [yel] (yedi-erkek)</td>
+                        </tr>
+                        <tr>
+                            <td class="cyrillic">Ё</td>
+                            <td>/o/ + onceki sessizi yumusaklastirir<br><span class="cyrillic">мёд</span> = [m'ot] (bal)</td>
+                            <td>/yo/ sesi verir<br><span class="cyrillic">ёлка</span> = [yolka] (cam agaci)</td>
+                        </tr>
+                        <tr>
+                            <td class="cyrillic">Ю</td>
+                            <td>/u/ + onceki sessizi yumusaklastirir<br><span class="cyrillic">люблю</span> = [l'ubl'u] (seviyorum)</td>
+                            <td>/yu/ sesi verir<br><span class="cyrillic">юг</span> = [yuk] (guney)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p><strong>Nasil anlayacaksin?</strong> Eger bu harfler kelime basinda veya baska bir sesliden sonra geliyorsa, "y" sesiyle baslar. Eger bir sessizden sonra geliyorsa, "y" sesi yerine onceki sessiz harfi yumusaklastirir.</p>
+            </div>
+
+            <div class="tip-box">
+                <p>Turkce'deki "yumusak g" (g) farkli bir kavram! Ruscadaki "yumusak sessiz" dilin damaga yaklasmasiyla olusur, Turkce'deki gibi uzatma degil.</p>
+            </div>
+
+            <h3>Phonetics (Ses Bilgisi) - IPA Tablosu</h3>
+
+            <div class="phonetics-box">
+                <h4>Uluslararasi Fonetik Alfabe (IPA) ile Sesli Harfler</h4>
+                <p>Dogru telaffuz icin IPA sembolleri:</p>
+                <table class="conjugation-table">
+                    <thead>
+                        <tr><th>Harf</th><th>IPA</th><th>Turkce Karsiligi</th><th>Ornek</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="cyrillic">А</td><td class="ipa">[a]</td><td>"a" gibi</td><td><span class="cyrillic">мама</span> [mama]</td></tr>
+                        <tr><td class="cyrillic">О</td><td class="ipa">[o] vurgulu / [a] vurgusuz</td><td>"o" / "a"</td><td><span class="cyrillic">молоко</span> [malako]</td></tr>
+                        <tr><td class="cyrillic">У</td><td class="ipa">[u]</td><td>"u" gibi</td><td><span class="cyrillic">утро</span> [utra]</td></tr>
+                        <tr><td class="cyrillic">Э</td><td class="ipa">[ɛ]</td><td>acik "e"</td><td><span class="cyrillic">это</span> [eta]</td></tr>
+                        <tr><td class="cyrillic">Ы</td><td class="ipa">[ɨ]</td><td>Yok! Bogaz "i"</td><td><span class="cyrillic">мы</span> [mɨ]</td></tr>
+                        <tr><td class="cyrillic">И</td><td class="ipa">[i]</td><td>"i" gibi</td><td><span class="cyrillic">или</span> [ili]</td></tr>
+                        <tr><td class="cyrillic">Я</td><td class="ipa">[ja] / [a]</td><td>"ya" / "a"</td><td><span class="cyrillic">яма</span> [jama]</td></tr>
+                        <tr><td class="cyrillic">Е</td><td class="ipa">[je] / [e] / [i]</td><td>"ye" / "e" / "i"</td><td><span class="cyrillic">ем</span> [jem]</td></tr>
+                        <tr><td class="cyrillic">Ё</td><td class="ipa">[jo] / [o]</td><td>"yo" / "o"</td><td><span class="cyrillic">ёж</span> [joʂ]</td></tr>
+                        <tr><td class="cyrillic">Ю</td><td class="ipa">[ju] / [u]</td><td>"yu" / "u"</td><td><span class="cyrillic">юг</span> [juk]</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Vowel Reduction (Sesli Harf Zayiflamasi)</h3>
+
+            <p>Bu Rusca'nin en onemli ozelliklerinden biri ve Turkce'de karsiligi yok. Vurgusuz sesliler "zayiflar" - yani farkli bir ses alir. Bu kural olmadan dogru Rusca konusamazsin!</p>
+
             <div class="grammar-box-blue">
-                <h4>Akanie (Аканье) - Vowel Reduction</h4>
-                <p>Moskova aksaninda vurgusuz <span class="cyrillic">О</span> harfi "a" gibi okunur:</p>
-                <ul>
-                    <li><span class="cyrillic">молоко</span> → ma-la-KO (sut)</li>
-                    <li><span class="cyrillic">хорошо</span> → kha-ra-SHO (iyi)</li>
-                    <li><span class="cyrillic">она говорила</span> → a-NA ga-va-RI-la (o konustu - disil)</li>
-                </ul>
+                <h4>Akanie (Akanie / Akanye) - O→A Donusumu</h4>
+                <p>Standart Rusca'da (Moskova aksani) vurgusuz <span class="cyrillic">О</span> harfi "a" gibi okunur. Bu kural istisnasiz!</p>
+                <table class="vocab-table">
+                    <thead>
+                        <tr><th>Kelime</th><th>Yazilis</th><th>Okunus</th><th>Anlam</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="cyrillic">молоко</td><td>mo-lo-KO</td><td>[ma-la-KO]</td><td>sut</td></tr>
+                        <tr><td class="cyrillic">хорошо</td><td>kho-ro-SHO</td><td>[kha-ra-SHO]</td><td>iyi</td></tr>
+                        <tr><td class="cyrillic">она говорила</td><td>o-NA go-vo-RI-la</td><td>[a-NA ga-va-RI-la]</td><td>o konustu (kadin)</td></tr>
+                        <tr><td class="cyrillic">голова</td><td>go-lo-VA</td><td>[ga-la-VA]</td><td>kafa, bas</td></tr>
+                        <tr><td class="cyrillic">погода</td><td>po-GO-da</td><td>[pa-GO-da]</td><td>hava durumu</td></tr>
+                        <tr><td class="cyrillic">дорога</td><td>do-RO-ga</td><td>[da-RO-ga]</td><td>yol</td></tr>
+                        <tr><td class="cyrillic">она работала</td><td>o-NA ra-BO-ta-la</td><td>[a-NA ra-BO-ta-la]</td><td>o calisti (kadin)</td></tr>
+                    </tbody>
+                </table>
+                <p><strong>Kural:</strong> Vurgulu <span class="cyrillic">О</span> = [o] sesi. Vurgusuz <span class="cyrillic">О</span> = [a] sesi.</p>
             </div>
 
             <div class="grammar-box-purple">
-                <h4>Ikanie (Иканье) - E/Я Reduction</h4>
-                <p>Vurgusuz <span class="cyrillic">Е</span> ve <span class="cyrillic">Я</span> harfleri "i" sesine yaklasir:</p>
+                <h4>Ikanie (Ikanye) - E/Я → I Donusumu</h4>
+                <p>Vurgusuz <span class="cyrillic">Е</span> ve <span class="cyrillic">Я</span> harfleri "i" sesine yaklasir (tam degil, ama cok yakin):</p>
+                <table class="vocab-table">
+                    <thead>
+                        <tr><th>Kelime</th><th>Yazilis</th><th>Okunus</th><th>Anlam</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="cyrillic">язык</td><td>ya-ZIK</td><td>[yi-ZIK]</td><td>dil</td></tr>
+                        <tr><td class="cyrillic">весна</td><td>ves-NA</td><td>[vis-NA]</td><td>ilkbahar</td></tr>
+                        <tr><td class="cyrillic">она делала</td><td>o-NA DE-la-la</td><td>[a-NA D'E-la-la]</td><td>o yapti (kadin)</td></tr>
+                        <tr><td class="cyrillic">земля</td><td>zem-LYA</td><td>[zim-L'A]</td><td>toprak, dunya</td></tr>
+                        <tr><td class="cyrillic">семья</td><td>sem'-YA</td><td>[sim'-YA]</td><td>aile</td></tr>
+                        <tr><td class="cyrillic">сестра</td><td>ses-TRA</td><td>[sis-TRA]</td><td>kiz kardes</td></tr>
+                        <tr><td class="cyrillic">она писала</td><td>o-NA pi-SA-la</td><td>[a-NA pi-SA-la]</td><td>o yazdi (kadin)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grammar-box-warning">
+                <p>Vurgu yazida gosterilmez! Bu Turkce konusanlar icin buyuk bir zorluk. Her kelimeyi ogrenirken vurgu yerini de ezberlemen gerekiyor. Yanlis vurgu seni hemen yabanci olarak ele verir!</p>
+            </div>
+
+            <div class="grammar-box-orange">
+                <h4>Ё - Ozel Durum</h4>
+                <p><span class="cyrillic">Ё</span> harfi HER ZAMAN vurgulu hecede bulunur. Istisna yok! Bu kural sana yardimci olacak:</p>
                 <ul>
-                    <li><span class="cyrillic">язык</span> → yi-ZIK (dil)</li>
-                    <li><span class="cyrillic">весна</span> → vis-NA (ilkbahar)</li>
-                    <li><span class="cyrillic">она делала</span> → a-NA DYE-la-la (o yapti - disil)</li>
+                    <li><span class="cyrillic">ёлка</span> → vurgu ilk hecede (YOL-ka) - cam agaci</li>
+                    <li><span class="cyrillic">моё</span> → vurgu son hecede (ma-YO) - benim (notr)</li>
+                    <li><span class="cyrillic">её</span> → vurgu son hecede (yi-YO) - onun (kadin)</li>
+                    <li><span class="cyrillic">пришёл</span> → vurgu son hecede (pri-SHOL) - geldi (erkek)</li>
+                    <li><span class="cyrillic">пришла</span> → vurgu son hecede (prish-LA) - geldi (kadin) - Ё yok!</li>
                 </ul>
+                <p><strong>Sorun:</strong> Bazi yayinlarda <span class="cyrillic">Ё</span> yerine <span class="cyrillic">Е</span> yazilir. Ornegin <span class="cyrillic">её</span> yerine <span class="cyrillic">ее</span> gorebilirsin. Okunusu ayni!</p>
+            </div>
+
+            <h3>Ы Harfi - Turkce'de Yok!</h3>
+
+            <div class="grammar-box-green">
+                <h4>Ы Sesi Nasil Cikarilir?</h4>
+                <p>Bu ses Turkce'de mevcut degil ve ogrenmesi zor. Iste adim adim yontem:</p>
+                <ol>
+                    <li>"u" sesi cikarmaya hazirlan - dudaklar yuvarlak</li>
+                    <li>Simdi dudaklari duzlestir (genis "i" pozisyonu)</li>
+                    <li>Dili arkaya cek, bogaza dogru</li>
+                    <li>Ses bogaz arkasindan cikiyor gibi olmali</li>
+                </ol>
+                <p class="ipa">IPA: [ɨ] - "close central unrounded vowel"</p>
+                <p><strong>Benzer sesler:</strong></p>
+                <ul>
+                    <li>Polonyaca "y" sesi (tak, syn)</li>
+                    <li>Romanca "i" sesi (România)</li>
+                    <li>Ingilizce'deki "roses" kelimesindeki ikinci sesli (bazi aksanlarda)</li>
+                </ul>
+                <p><strong>Pratik:</strong> "i" ve "u" arasinda bir ses - tam ortada.</p>
             </div>
 
             <div class="warning-box">
-                <p>Vurgu yazida gosterilmez! Kelimeleri ogrenirken vurguyu da ezberle.</p>
+                <p><span class="cyrillic">И</span> ve <span class="cyrillic">Ы</span> karistirmak anlam degistirir! <span class="cyrillic">быть</span> (olmak) vs <span class="cyrillic">бить</span> (dovmek) - cok farkli!</p>
             </div>
 
-            <h3>Kelime Tablosu</h3>
+            <h3>Turk Ogrencilerin Sik Yaptigi Hatalar</h3>
+
+            <div class="grammar-box-warning">
+                <p>Iste dikkat etmen gereken noktalar:</p>
+                <table class="conjugation-table">
+                    <thead>
+                        <tr><th>Hata</th><th>Yanlis</th><th>Dogru</th><th>Aciklama</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Akanie'yi unutmak</td>
+                            <td><span class="cyrillic">молоко</span> = "moloko"</td>
+                            <td><span class="cyrillic">молоко</span> = "malako"</td>
+                            <td>Vurgusuz O daima A!</td>
+                        </tr>
+                        <tr>
+                            <td>Ы yerine I demek</td>
+                            <td><span class="cyrillic">мы</span> = "mi"</td>
+                            <td><span class="cyrillic">мы</span> = "miy"</td>
+                            <td>Ы bogaz sesidir</td>
+                        </tr>
+                        <tr>
+                            <td>Ё'yu gormemek</td>
+                            <td><span class="cyrillic">её</span> = "yeye"</td>
+                            <td><span class="cyrillic">её</span> = "yiyo"</td>
+                            <td>Ё daima vurgulu!</td>
+                        </tr>
+                        <tr>
+                            <td>Yumusak seslileri sert okumak</td>
+                            <td><span class="cyrillic">мясо</span> = "myaso"</td>
+                            <td><span class="cyrillic">мясо</span> = "m'asa"</td>
+                            <td>M yumusaklasiyor</td>
+                        </tr>
+                        <tr>
+                            <td>Vurguyu yanlis yere koymak</td>
+                            <td><span class="cyrillic">говорила</span> = "go-vo-ri-LA"</td>
+                            <td><span class="cyrillic">говорила</span> = "ga-va-RI-la"</td>
+                            <td>Vurguyu ezberle!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Kelime Tablosu - Genisletilmis</h3>
 
             <table class="vocab-table">
                 <thead>
-                    <tr><th>Rusca</th><th>Telaffuz</th><th>Anlami</th><th>Not</th></tr>
+                    <tr><th>Rusca</th><th>Telaffuz</th><th>Anlami</th><th>Ozel Not</th></tr>
                 </thead>
                 <tbody>
-                    <tr><td class="cyrillic">вода</td><td>va-DA</td><td>su</td><td>О→a</td></tr>
+                    <tr><td class="cyrillic">вода</td><td>va-DA</td><td>su</td><td>О→a (1. hece)</td></tr>
                     <tr><td class="cyrillic">книга</td><td>KNI-ga</td><td>kitap</td><td>И vurgulu</td></tr>
-                    <tr><td class="cyrillic">окно</td><td>ak-NO</td><td>pencere</td><td>О→a</td></tr>
-                    <tr><td class="cyrillic">яблоко</td><td>YAB-la-ka</td><td>elma</td><td>Я vurgulu</td></tr>
+                    <tr><td class="cyrillic">окно</td><td>ak-NO</td><td>pencere</td><td>О→a (1. hece)</td></tr>
+                    <tr><td class="cyrillic">яблоко</td><td>YAB-la-ka</td><td>elma</td><td>Я vurgulu, О→a</td></tr>
                     <tr><td class="cyrillic">ёлка</td><td>YOL-ka</td><td>cam agaci</td><td>Ё daima vurgulu</td></tr>
                     <tr><td class="cyrillic">сестра</td><td>sis-TRA</td><td>kiz kardes</td><td>Е→i</td></tr>
                     <tr><td class="cyrillic">работа</td><td>ra-BO-ta</td><td>is</td><td>О vurgulu</td></tr>
-                    <tr><td class="cyrillic">музыка</td><td>MU-zi-ka</td><td>muzik</td><td>Ы var</td></tr>
-                    <tr><td class="cyrillic">погода</td><td>pa-GO-da</td><td>hava</td><td>О→a (1.hece)</td></tr>
+                    <tr><td class="cyrillic">музыка</td><td>MU-ziy-ka</td><td>muzik</td><td>Ы sesi var</td></tr>
+                    <tr><td class="cyrillic">погода</td><td>pa-GO-da</td><td>hava durumu</td><td>О→a (1. hece)</td></tr>
                     <tr><td class="cyrillic">улица</td><td>U-li-tsa</td><td>sokak</td><td>У vurgulu</td></tr>
-                    <tr><td class="cyrillic">земля</td><td>zim-LYA</td><td>toprak</td><td>Я vurgulu</td></tr>
+                    <tr><td class="cyrillic">земля</td><td>zim-LYA</td><td>toprak</td><td>Я vurgulu, Е→i</td></tr>
+                    <tr><td class="cyrillic">любовь</td><td>l'u-BOF'</td><td>ask</td><td>Ю yumusaklastirir</td></tr>
+                    <tr><td class="cyrillic">она читала</td><td>a-NA chi-TA-la</td><td>o okudu (kadin)</td><td>Disil gecmis zaman</td></tr>
+                    <tr><td class="cyrillic">она писала</td><td>a-NA pi-SA-la</td><td>o yazdi (kadin)</td><td>Disil gecmis zaman</td></tr>
+                    <tr><td class="cyrillic">она делала</td><td>a-NA D'E-la-la</td><td>o yapti (kadin)</td><td>Disil gecmis zaman</td></tr>
                 </tbody>
             </table>
 
-            <div class="tip-box">
-                <p><span class="cyrillic">Ё</span> harfi HER ZAMAN vurgulu hecede bulunur - istisnasiz!</p>
+            <h3>Diyalog: Kafede Siparis (Vowel Reduction Ornekleri)</h3>
+
+            <div class="dialogue">
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Garson:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Доброе утро! Что будете?</span>
+                        <span class="transliteration">DOB-ra-ye UT-ra! Shto BU-di-t'e?</span>
+                        <span class="translation">Gunaydin! Ne alirsiniz?</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Доброе утро! Можно кофе с молоком, пожалуйста.</span>
+                        <span class="transliteration">DOB-ra-ye UT-ra! MOZH-na KO-f'e s ma-la-KOM, pa-ZHA-lus-ta.</span>
+                        <span class="translation">Gunaydin! Sutlu kahve alabilir miyim, lutfen.</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Garson:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Хорошо. Ещё что-нибудь?</span>
+                        <span class="transliteration">kha-ra-SHO. yi-SHCHO SHTO-ni-but'?</span>
+                        <span class="translation">Tamam. Baska bir sey?</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Да, яблочный сок, пожалуйста. Холодный.</span>
+                        <span class="transliteration">Da, YAB-lach-niy sok, pa-ZHA-lus-ta. kha-LOD-niy.</span>
+                        <span class="translation">Evet, elma suyu lutfen. Soguk.</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Garson:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Сейчас принесу. Вы одна?</span>
+                        <span class="transliteration">si-CHAS pri-ni-SU. Viy ad-NA?</span>
+                        <span class="translation">Hemen getiriyorum. Yalniz misiniz?</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Нет, подруга скоро придёт. Она позвонила.</span>
+                        <span class="transliteration">N'et, pad-RU-ga SKO-ra pri-DYOT. a-NA paz-va-NI-la.</span>
+                        <span class="translation">Hayir, arkadasim birazdan gelecek. O aradi.</span>
+                    </div>
+                </div>
             </div>
+
+            <div class="tip-box">
+                <p><strong>Diyalogdaki reduction ornekleri:</strong> <span class="cyrillic">молоком</span> [ma-la-KOM], <span class="cyrillic">хорошо</span> [kha-ra-SHO], <span class="cyrillic">холодный</span> [kha-LOD-niy], <span class="cyrillic">подруга</span> [pad-RU-ga] - Hepsinde vurgusuz О "a" olarak okunuyor!</p>
+            </div>
+
+            <h3>Diyalog 2: Universite Kutuphanesinde</h3>
+
+            <div class="dialogue">
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Masha:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Привет! Ты новая студентка?</span>
+                        <span class="transliteration">pri-V'ET! Tiy NO-va-ya stu-D'ENT-ka?</span>
+                        <span class="translation">Merhaba! Sen yeni ogrenci misin?</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Привет! Да, я из Турции. Приехала вчера.</span>
+                        <span class="transliteration">pri-V'ET! Da, ya iz TUR-tsii. pri-YE-kha-la fchi-RA.</span>
+                        <span class="translation">Merhaba! Evet, Turkiye'denim. Dun geldim.</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Masha:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">О, как интересно! Ты уже говоришь по-русски?</span>
+                        <span class="transliteration">O, kak in-ti-R'ES-na! Tiy u-ZHE ga-va-RISH pa-RUS-ki?</span>
+                        <span class="translation">Ah, ne ilginc! Rusca konusabiliyor musun?</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Немного. Я учила русский язык дома.</span>
+                        <span class="transliteration">nim-NO-ga. Ya u-CHI-la RUS-kiy yi-ZIK DO-ma.</span>
+                        <span class="translation">Biraz. Evde Rusca ogrendim.</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Masha:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Молодец! Если нужна помощь - скажи. Меня зовут Маша.</span>
+                        <span class="transliteration">ma-la-D'ETS! YES-li nuzh-NA PO-mashch - ska-ZHI. mi-NYA za-VUT MA-sha.</span>
+                        <span class="translation">Aferin! Yardim lazim olursa soyle. Adim Masha.</span>
+                    </div>
+                </div>
+                <div class="dialogue-line">
+                    <span class="dialogue-speaker">Elif:</span>
+                    <div class="dialogue-text">
+                        <span class="russian">Спасибо, Маша! Я Элиф. Очень рада познакомиться!</span>
+                        <span class="transliteration">spa-SI-ba, MA-sha! Ya e-LIF. O-chin' RA-da paz-na-KO-mit'-sya!</span>
+                        <span class="translation">Tesekkurler, Masha! Ben Elif. Tanistigima cok memnunum!</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Alıstırmalar (Drills)</h3>
 
             <section class="drill-section">
                 <h3>Akanie Alistirmasi</h3>
-                <p>Vurgusuz O harflerini "a" olarak oku:</p>
+                <p>Vurgusuz O harflerini "a" olarak oku ve telaffuz et:</p>
                 <ol>
                     <li><span class="cyrillic">молоко</span> <span class="answer">ma-la-KO</span></li>
                     <li><span class="cyrillic">город</span> <span class="answer">GO-rat</span></li>
                     <li><span class="cyrillic">дорога</span> <span class="answer">da-RO-ga</span></li>
                     <li><span class="cyrillic">голова</span> <span class="answer">ga-la-VA</span></li>
+                    <li><span class="cyrillic">погода</span> <span class="answer">pa-GO-da</span></li>
+                    <li><span class="cyrillic">работа</span> <span class="answer">ra-BO-ta</span></li>
+                    <li><span class="cyrillic">хорошо</span> <span class="answer">kha-ra-SHO</span></li>
+                    <li><span class="cyrillic">молодец</span> <span class="answer">ma-la-D'ETS</span></li>
                 </ol>
             </section>
 
@@ -103,6 +385,7 @@
                     <li><span class="cyrillic">О</span> → <span class="answer">Ё</span></li>
                     <li><span class="cyrillic">У</span> → <span class="answer">Ю</span></li>
                     <li><span class="cyrillic">Э</span> → <span class="answer">Е</span></li>
+                    <li><span class="cyrillic">Ы</span> → <span class="answer">И</span></li>
                 </ol>
             </section>
 
@@ -110,35 +393,99 @@
                 <h3>Disil Fiil Tamamlama</h3>
                 <p>Disil gecmis zaman (-ла) ile tamamla:</p>
                 <ol>
-                    <li><span class="cyrillic">Она _____ книгу.</span> <span class="answer">читала (okudu)</span></li>
-                    <li><span class="cyrillic">Мама _____ ужин.</span> <span class="answer">готовила (hazirladi)</span></li>
-                    <li><span class="cyrillic">Сестра _____ дома.</span> <span class="answer">работала (calisti)</span></li>
-                    <li><span class="cyrillic">Она _____ по-русски.</span> <span class="answer">говорила (konustu)</span></li>
+                    <li><span class="cyrillic">Она _____ книгу.</span> (okumak) <span class="answer">читала (okudu)</span></li>
+                    <li><span class="cyrillic">Мама _____ ужин.</span> (hazirlamak) <span class="answer">готовила (hazirladi)</span></li>
+                    <li><span class="cyrillic">Сестра _____ дома.</span> (calismak) <span class="answer">работала (calisti)</span></li>
+                    <li><span class="cyrillic">Она _____ по-русски.</span> (konusmak) <span class="answer">говорила (konustu)</span></li>
+                    <li><span class="cyrillic">Подруга _____ письмо.</span> (yazmak) <span class="answer">писала (yazdi)</span></li>
+                    <li><span class="cyrillic">Она _____ музыку.</span> (dinlemek) <span class="answer">слушала (dinledi)</span></li>
                 </ol>
             </section>
 
             <section class="drill-section">
                 <h3>Vurgu Belirleme</h3>
-                <p>Vurgulu heceyi bul:</p>
+                <p>Vurgulu heceyi bul ve O→a donusumunu uygula:</p>
                 <ol>
-                    <li><span class="cyrillic">вода</span> <span class="answer">vo-DA</span></li>
-                    <li><span class="cyrillic">книга</span> <span class="answer">KNI-ga</span></li>
-                    <li><span class="cyrillic">работа</span> <span class="answer">ra-BO-ta</span></li>
+                    <li><span class="cyrillic">вода</span> <span class="answer">va-DA (O vurgusuz → a)</span></li>
+                    <li><span class="cyrillic">книга</span> <span class="answer">KNI-ga (vurgulu, donusum yok)</span></li>
+                    <li><span class="cyrillic">работа</span> <span class="answer">ra-BO-ta (O vurgulu, kalir)</span></li>
+                    <li><span class="cyrillic">молоко</span> <span class="answer">ma-la-KO (ilk 2 O vurgusuz → a)</span></li>
+                    <li><span class="cyrillic">хорошо</span> <span class="answer">kha-ra-SHO (ilk 2 O vurgusuz → a)</span></li>
+                    <li><span class="cyrillic">город</span> <span class="answer">GO-rat (ilk O vurgulu, son O → a)</span></li>
+                </ol>
+            </section>
+
+            <section class="drill-section">
+                <h3>Iotated Vowels: Y sesi var mi yok mu?</h3>
+                <p>Her ornekte Я/Е/Ё/Ю harfi "y" sesiyle mi basliyor yoksa sadece onceki sessizi yumusaklastiriyor mu?</p>
+                <ol>
+                    <li><span class="cyrillic">яблоко</span> (elma) - Я: <span class="answer">Y sesi VAR (kelime basi)</span></li>
+                    <li><span class="cyrillic">мясо</span> (et) - Я: <span class="answer">Y sesi YOK (M'yi yumusaklastirir)</span></li>
+                    <li><span class="cyrillic">ёлка</span> (cam) - Ё: <span class="answer">Y sesi VAR (kelime basi)</span></li>
+                    <li><span class="cyrillic">мёд</span> (bal) - Ё: <span class="answer">Y sesi YOK (M'yi yumusaklastirir)</span></li>
+                    <li><span class="cyrillic">юг</span> (guney) - Ю: <span class="answer">Y sesi VAR (kelime basi)</span></li>
+                    <li><span class="cyrillic">люблю</span> (seviyorum) - Ю: <span class="answer">Y sesi YOK (L'yi yumusaklastirir)</span></li>
+                    <li><span class="cyrillic">её</span> (onun-kadin) - Е ve Ё: <span class="answer">Her ikisinde Y sesi VAR (sesliden sonra)</span></li>
+                </ol>
+            </section>
+
+            <section class="drill-section">
+                <h3>Ы vs И Ayirt Etme</h3>
+                <p>Asagidaki minimal ciftlerde anlam farkini yaz:</p>
+                <ol>
+                    <li><span class="cyrillic">быть</span> vs <span class="cyrillic">бить</span> <span class="answer">olmak vs dovmek</span></li>
+                    <li><span class="cyrillic">мыл</span> vs <span class="cyrillic">мил</span> <span class="answer">yikadi vs sevimli</span></li>
+                    <li><span class="cyrillic">выл</span> vs <span class="cyrillic">вил</span> <span class="answer">uludi vs ördü (sepet)</span></li>
+                    <li><span class="cyrillic">был</span> vs <span class="cyrillic">бил</span> <span class="answer">idi (erkek) vs vuruyordu</span></li>
+                </ol>
+            </section>
+
+            <section class="drill-section">
+                <h3>Hata Duzeltme</h3>
+                <p>Asagidaki yanlis telaffuzlari duzelt:</p>
+                <ol>
+                    <li>"moloko" → <span class="answer">"malako" (vurgusuz O → a)</span></li>
+                    <li>"gorod" son ses "d" → <span class="answer">"gorat" (son D tonsuzlasir, O→a)</span></li>
+                    <li>"horosho" → <span class="answer">"kharasho" (X = kh, vurgusuz O → a)</span></li>
+                    <li>"vesna" → <span class="answer">"visna" (vurgusuz E → i)</span></li>
+                    <li>"mozno" → <span class="answer">"mozhna" (Ж = zh, vurgusuz O → a)</span></li>
                 </ol>
             </section>
 
             <div class="cultural-note">
-                <p>Rusya'da farkli aksanlar var. Moskova "akanie" kullanir (vurgusuz O→a). Guneyde "okanie" denen aksan var, O her zaman "o" okunur. Sibirya ve Ukrayna sinirinda da farkli telaffuzlar duyabilirsin. Standart Rusca icin Moskova aksanini ogren.</p>
+                <h4>Bolgesel Aksanlar ve Vowel Reduction</h4>
+                <p>Rusya'da farkli aksanlar var ve hepsi sesli harfleri ayni sekilde telaffuz etmiyor:</p>
+                <ul>
+                    <li><strong>Moskova Aksani (Standart):</strong> "Akanie" kullanir - vurgusuz O "a" gibi okunur. Bu aksani ogren!</li>
+                    <li><strong>Guney Aksani:</strong> "Yakanie" - vurgusuz A/O → "ya" sesi</li>
+                    <li><strong>Kuzey Aksani (Okanie):</strong> O her zaman "o" kalir. Eski Rus dilinin kalintisi</li>
+                    <li><strong>Sibirya:</strong> Moskova'ya benzer ama bazi yerel farklar var</li>
+                </ul>
+                <p>Film ve dizi izlerken bu farklari duyabilirsin. Standart Rusca icin Moskova aksanini kullan.</p>
+            </div>
+
+            <div class="cultural-note">
+                <h4>Ё Harfinin Ilginc Tarihi</h4>
+                <p><span class="cyrillic">Ё</span> harfi 1783'te Rusca'ya eklendi - alfabenin en genc harfi! Prenses Yekaterina Dashkova tarafindan onerildi. Ilginc gercekler:</p>
+                <ul>
+                    <li>Bazi Ruslar <span class="cyrillic">Ё</span> yazmaktan "usenir" ve <span class="cyrillic">Е</span> yazarlar</li>
+                    <li>Resmi belgelerde <span class="cyrillic">Ё</span> kullanilmali - pasaportlarda onemli!</li>
+                    <li>Rusya'da "<span class="cyrillic">Ё</span>-fiers" (<span class="cyrillic">ёфикаторы</span>) hareketi var - <span class="cyrillic">Ё</span> kullanımını savunuyorlar</li>
+                    <li>Ulyanovsk sehrinde <span class="cyrillic">Ё</span> harfine anit var!</li>
+                </ul>
             </div>
 
             <div class="summary-box">
-                <h3>Ozet</h3>
+                <h3>Ozet - Bu Derste Ogrendiklerimiz</h3>
                 <ul>
-                    <li>10 sesli harf = 5 temel ses (sert/yumusak ciftler)</li>
-                    <li><strong>Akanie:</strong> Vurgusuz О → "a"</li>
-                    <li><strong>Ikanie:</strong> Vurgusuz Е/Я → "i"</li>
-                    <li><span class="cyrillic">Ё</span> daima vurgulu</li>
-                    <li>Disil gecmis zaman: -ла (читала, говорила)</li>
+                    <li><strong>10 sesli harf = 5 temel ses</strong> (sert/yumusak ciftler: А-Я, О-Ё, У-Ю, Э-Е, Ы-И)</li>
+                    <li><strong>Akanie:</strong> Vurgusuz <span class="cyrillic">О</span> → "a" sesi (<span class="cyrillic">молоко</span> = malako)</li>
+                    <li><strong>Ikanie:</strong> Vurgusuz <span class="cyrillic">Е/Я</span> → "i" sesi (<span class="cyrillic">весна</span> = visna)</li>
+                    <li><strong>Iotated vowels:</strong> <span class="cyrillic">Я, Е, Ё, Ю</span> - kelime basinda/sesliden sonra "y" sesi, sessizden sonra yumusaklastirma</li>
+                    <li><strong><span class="cyrillic">Ё</span> daima vurgulu:</strong> Istisna yok!</li>
+                    <li><strong><span class="cyrillic">Ы</span> sesi:</strong> Turkce'de yok - bogaz "i" sesi</li>
+                    <li><strong>Disil gecmis zaman:</strong> -ла eki (<span class="cyrillic">читала, писала, говорила</span>)</li>
+                    <li><strong>Moskova aksani:</strong> Standart Rusca - Akanie kullanilir</li>
                 </ul>
             </div>
 

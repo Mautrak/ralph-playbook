@@ -4,259 +4,344 @@
 
 **Last Updated:** 2026-01-25
 **Total Target:** 368 pages
-**Completed:** 5 pages (Pages 1-5)
+**Pages Existing (Main Repo):** 75 pages
+**Pages Existing (Playbook):** 5 pages (page_01-05)
 **Quality Standard:** "Double Density" + "Penguin Books Modern UI"
+**Target Outcome:** Non-speaker → Comfortable with Pages 17-23 content (flirting, nightlife, NSFW)
 
 ---
 
-## QUALITY AUDIT RESULTS
+## EXECUTIVE SUMMARY
 
-### Gap Analysis: Pages 1-5
+The project has **two parallel systems** that need to be **merged strategically**:
 
-| Page | Size | Content Score | Design Score | Language | Action Required |
-|------|------|---------------|--------------|----------|-----------------|
-| 01 | 19.7KB | **A+** (Full) | **A** | TR+EN | **GOLD STANDARD** - Use as template |
-| 02 | 8.5KB | **B-** (43%) | **A** | TR+EN | **DENSIFY** - Add 10KB content |
-| 03 | 8.9KB | **B-** (45%) | **A** | TR+EN | **DENSIFY** - Add 10KB content |
-| 04 | 27.7KB | **A+** (Full) | **A** | TR+EN | **COMPLETE** - Densified 2026-01-25 |
-| 05 | 8.1KB | **B-** (41%) | **A** | TR+EN | **DENSIFY** - Add 11KB content |
+| Repository | Content Focus | Design Quality | Content Density | Pages |
+|------------|--------------|----------------|-----------------|-------|
+| **Main Repo** | Street Russian (flirting, NSFW, nightlife) | ❌ "Windows 3.1" | ❌ Sparse (avg 4KB) | 75 |
+| **Playbook** | Academic fundamentals (alphabet, grammar) | ✅ Modern Penguin | ✅ Dense (avg 15KB) | 5 |
 
-### Quality Benchmarks
-
-**MINIMUM per page:**
-- File size: 15KB+ (target 18-20KB for core lessons)
-- Vocabulary table: 10-15 words
-- Grammar boxes: 2-3 (using color variants: blue, green, purple, orange)
-- Drill sections: 3-4 exercises
-- Cultural note: 1 section
-- Summary box: Required
-- Dialogue/Reading: 1 section (where applicable)
-
-**LANGUAGE STANDARD:**
-- Main text: **Turkish** (Turkce)
-- Technical terms: **English** (e.g., "Palatalization", "Nominative Case", "Vowel Reduction")
-- Examples: **Cyrillic + Transliteration + Turkish translation**
-- Persona: **Feminine** verb forms (e.g., "Geldim", "Yaptim", "-ла" endings prioritized)
-
-**DESIGN STANDARD ("Penguin Books Modern UI"):**
-- NO inline styles (zero tolerance)
-- Use only `style.css` classes
-- Required structure: `.book-container` > `.penguin-header` + `main` + `.page-navigation`
-- Color-coded grammar boxes for visual hierarchy
-- Clean typography with proper Cyrillic rendering
+**THE VISION:** Create a unified textbook that uses the **Playbook's design standards and density** to teach the **Main Repo's practical content**. The academic foundation (pages 1-16) must lead naturally to the conversational/NSFW content (pages 17+).
 
 ---
 
-## PHASE 1: RETROACTIVE DENSIFICATION
+## COMPREHENSIVE AUDIT RESULTS
 
-**Priority: CRITICAL**
-**Goal:** Bring Pages 2-5 to 15KB+ each
+### A. SIZE DISTRIBUTION (Main Repo - 75 Pages)
 
-### Page 02 - Sesli Harfler (Vowels)
-**Current:** 8.5KB | **Target:** 18KB
+| Category | Size Range | Page Count | Pages | Priority |
+|----------|-----------|------------|-------|----------|
+| **SKELETON** | < 3KB | 23 | 46-56, 59-60, 62-63, 66-67, 69-75 | 🔴 CRITICAL |
+| **SEVERE** | 3-4KB | 18 | 23-24, 30-34, 36, 38, 40-45 | 🔴 CRITICAL |
+| **INADEQUATE** | 4-6KB | 22 | 06-11, 13-22, 25-29, 35 | 🟡 HIGH |
+| **BORDERLINE** | 6-8KB | 7 | 01-05, 12, 58 | 🟡 MEDIUM |
+| **ACCEPTABLE** | 8-15KB | 4 | 37, 39, 61, 64 | 🟢 POLISH |
+| **GOOD** | 15KB+ | 1 | 65 (14.6KB) | 🟢 REVIEW |
 
-**Add:**
-- [ ] Extended phonetics section with IPA chart for all 10 vowels
-- [ ] "Iotified vowels" grammar box (Я, Е, Ё, Ю explanation)
-- [ ] Dialogue: "Cafe scene" demonstrating vowel reduction in natural speech
-- [ ] 2 additional drill sections (minimal pairs, vowel dictation)
-- [ ] Feminine verb examples with vowel patterns (читала, писала, говорила)
-- [ ] Audio pronunciation guide placeholder/notes
-- [ ] Warning box for common Turkish speaker mistakes
+**Summary:** 63 of 75 pages (84%) need major densification work.
 
-### Page 03 - Sessiz Harfler (Consonants)
-**Current:** 8.9KB | **Target:** 18KB
+### B. DESIGN FAILURES ("Windows 3.1" Syndrome)
 
-**Add:**
-- [ ] Complete consonant cluster section (СТР, ЗДР, etc.)
-- [ ] Assimilation rules grammar box (regressive voicing)
-- [ ] Extended "False Friends" section with full comparison table
-- [ ] Dialogue demonstrating consonant clusters in context
-- [ ] 2 additional drills (tongue twisters, minimal pairs)
-- [ ] Phonetics box with articulation diagrams/descriptions
-- [ ] Cultural note expansion: regional consonant variations
+Almost every page in the main repo contains:
 
-### Page 04 - Selamlasmalar (Greetings) - COMPLETED
-**Final:** 27.7KB | **Target:** 18KB | **STATUS: DONE**
+```html
+<!-- VIOLATION: Inline <style> blocks -->
+<style>
+    .kayf-box { border: 2px solid #ff9800; ... }
+    .idiom-alert { border: 2px dashed #000; ... }
+    .vulgar-header { background-color: #212121; color: #d32f2f; ... }
+    .joke-break { border-left: 5px solid #FFC107; ... }
+</style>
 
-**Added (2026-01-25):**
-- [x] Summary box (required component)
-- [x] Extended dialogue: Full "Meeting at a party" scenario (2 dialogues total)
-- [x] Time-of-day greetings with clock examples (grammar-box-green)
-- [x] Formal letter/email greeting conventions (grammar-box-blue)
-- [x] Grammar box: Vocative case hints (grammar-box-orange)
-- [x] Patronymic (отчество) explanation with examples (grammar-box-purple)
-- [x] 8 drill sections (role-play, formal/informal sorting, patronymic creation)
-- [x] 2 cultural notes (handshaking customs, cheek kissing, ты/вы transition)
-- [x] Vocabulary table: 15 words
-- [x] Phonetics box for "Zdravstvuyte" pronunciation
-- [x] Warning box for social etiquette
+<!-- VIOLATION: Inline styles on elements -->
+<div class="grammar-box" style="background-color:#ffebee;">
+<p style="margin-top:10px;">
+<div style="font-weight:bold; letter-spacing:1px; color:black;">
+```
 
-### Page 05 - Kisisel Zamirler (Personal Pronouns)
-**Current:** 8.1KB | **Target:** 18KB
+**Design Violations by Page:**
 
-**Add:**
-- [ ] Accusative and Dative case forms preview table
-- [ ] Reflexive pronoun себя introduction
-- [ ] Extended dialogue with pronoun-heavy conversation
-- [ ] Grammar box: Pronoun omission rules (pro-drop)
-- [ ] Possessive pronouns preview (мой, твой, её)
-- [ ] 2 additional drills (case transformation, pronoun substitution)
-- [ ] Feminine-focused examples throughout
-- [ ] Warning box: Common mistakes with ты/вы
+| Issue | Affected Pages | Fix Required |
+|-------|---------------|--------------|
+| Inline `<style>` block | ALL 75 pages | Remove, use style.css |
+| Custom one-off classes | 60+ pages | Standardize or add to CSS |
+| Old footer structure | ALL pages | Update to nav-based footer |
+| Missing `<main>` tag | ALL pages | Add semantic structure |
+| Missing `.penguin-header` subtitle | ALL pages | Add page context |
+| Inconsistent heading hierarchy | 50+ pages | Standardize h2 > h3 > h4 |
 
----
+### C. CONTENT FAILURES ("Empty Shell" Syndrome)
 
-## PHASE 2: NEW CONTENT CREATION (Pages 6-75)
-
-**Standard:** All new pages must meet 15KB+ minimum from creation
-
-### Batch 1: Pages 6-15 (Phonetics & Basic Grammar)
-| Page | Topic | Key Components |
-|------|-------|----------------|
-| 06 | Vurgu ve Tonlama (Stress & Intonation) | Stress patterns, IK-1 through IK-5 intonation contours |
-| 07 | Hece Yapisi (Syllable Structure) | Open/closed syllables, consonant clusters |
-| 08 | Isimler - Giris (Nouns Introduction) | Gender system, animate/inanimate |
-| 09 | Isim Cinsiyetleri (Noun Genders) | Masculine/Feminine/Neuter patterns |
-| 10 | Yalinci Hal - Nominative Case | Subject function, -ы/-и plurals |
-| 11 | Sifatlar - Giris (Adjectives) | Agreement rules, hard/soft stems |
-| 12 | Olmak Fiili (To Be - Быть) | Present tense omission, past/future |
-| 13 | Sahiplik (Possession) | У меня есть structure |
-| 14 | Olumsuzluk (Negation) | Не, нет, никогда patterns |
-| 15 | Sorular (Questions) | Question words, intonation |
-
-### Batch 2: Pages 16-30 (Cases Introduction)
-| Page | Topic |
-|------|-------|
-| 16-18 | Accusative Case (Belirtme Hali) - 3 pages |
-| 19-21 | Genitive Case (Sahiplik Hali) - 3 pages |
-| 22-24 | Dative Case (Yonelme Hali) - 3 pages |
-| 25-27 | Instrumental Case (Vasita Hali) - 3 pages |
-| 28-30 | Prepositional/Locative Case (Bulunma Hali) - 3 pages |
-
-### Batch 3: Pages 31-45 (Verbs Foundation)
-| Page | Topic |
-|------|-------|
-| 31-33 | Present Tense Conjugation (1st/2nd conjugation) |
-| 34-36 | Past Tense (Gender agreement, -л/-ла/-ло/-ли) |
-| 37-39 | Future Tense (Compound and perfective) |
-| 40-42 | Aspect Introduction (Imperfective/Perfective) |
-| 43-45 | Common Irregular Verbs (хотеть, мочь, есть) |
-
-### Batch 4: Pages 46-60 (Expanding Vocabulary)
-| Page | Topic |
-|------|-------|
-| 46-48 | Numbers 1-100 |
-| 49-51 | Time Expressions |
-| 52-54 | Family Members |
-| 55-57 | Daily Routines |
-| 58-60 | Food and Dining |
-
-### Batch 5: Pages 61-75 (Intermediate Grammar)
-| Page | Topic |
-|------|-------|
-| 61-63 | Adjective Declension (Full paradigm) |
-| 64-66 | Comparative/Superlative |
-| 67-69 | Adverbs |
-| 70-72 | Prepositions with Cases |
-| 73-75 | Review and Consolidation |
-
----
-
-## PHASE 3: ADVANCED CONTENT (Pages 76-368)
-
-### Batch Structure (20 pages each)
-
-| Batch | Pages | Focus Topic |
-|-------|-------|-------------|
-| 1 | 76-95 | Cases consolidation and exceptions |
-| 2 | 96-115 | Verb aspects deep dive |
-| 3 | 116-135 | Motion verbs (идти/ходить system) |
-| 4 | 136-155 | Verbal adjectives (participles) |
-| 5 | 156-175 | Complex sentences |
-| 6 | 176-195 | Conditional and subjunctive |
-| 7 | 196-215 | Reported speech |
-| 8 | 216-235 | Numbers, dates, time advanced |
-| 9 | 236-255 | Prefixed verbs of motion |
-| 10 | 256-275 | Participles deep dive |
-| 11 | 276-295 | Gerunds and verbal nouns |
-| 12 | 296-315 | Stylistics and register |
-| 13 | 316-335 | Professional/academic Russian |
-| 14 | 336-355 | Literary Russian |
-| 15 | 356-368 | Reference materials and appendices |
-
----
-
-## QUALITY ASSURANCE CHECKLIST
-
-### Before marking ANY page complete:
-
-**Content (must ALL be true):**
-- [ ] File size >= 15KB (target 18-20KB)
-- [ ] Vocabulary table: 10-15 words minimum
-- [ ] Grammar boxes: 2-3 with color variants
+**Minimum Standard Per Page:**
+- [ ] File size: 15KB minimum
+- [ ] Vocabulary table: 10-15 words
+- [ ] Grammar boxes: 3-5 (with color variants)
 - [ ] Drill sections: 3-4 exercises
 - [ ] Cultural note: 1 section
-- [ ] Summary box: Present
+- [ ] Summary box: Required
 - [ ] Dialogue/Reading: Where applicable
 
-**Design (must ALL be true):**
-- [ ] ZERO inline styles
-- [ ] All CSS classes exist in `style.css`
-- [ ] `.book-container` wrapper used
-- [ ] `.penguin-header` with title, subtitle, page number
-- [ ] `.page-navigation` with prev/next links
-- [ ] Consistent heading hierarchy (h2 > h3 > h4)
+**Current Reality (Sample Audit):**
 
-**Language (must ALL be true):**
-- [ ] Main explanations in **Turkish**
-- [ ] Technical terms in **English** (Nominative Case, Palatalization, etc.)
-- [ ] Russian examples with Cyrillic + transliteration + Turkish translation
-- [ ] Feminine verb forms prioritized (-ла endings, студентка, etc.)
-- [ ] No pure-English pages
+| Page | Size | Vocab Table | Grammar Boxes | Drills | Cultural Note | Summary | VERDICT |
+|------|------|-------------|--------------|--------|---------------|---------|---------|
+| 72 | 2.5KB | ❌ 0 | ❌ 1 | ❌ 1 | ❌ No | ❌ No | SKELETON |
+| 46 | 2.7KB | ❌ 0 | ❌ 2 | ❌ 1 | ❌ No | ❌ No | SKELETON |
+| 40 | 3.2KB | ❌ 0 | ❌ 1 | ❌ 1 | ❌ No | ❌ No | SKELETON |
+| 17 | 6.3KB | ✅ 1 | ✅ 3 | ❌ 1 | ❌ No | ❌ No | INADEQUATE |
+| 65 | 14.6KB | ✅ 1 | ✅ 5 | ✅ 4 | ✅ Yes | ❌ No | BORDERLINE |
+| PB-04 | 27.7KB | ✅ 3 | ✅ 8 | ✅ 7 | ✅ 2 | ✅ Yes | **GOLD** |
+
+### D. LANGUAGE STANDARD COMPLIANCE
+
+**Required Standard:**
+- Main explanations: **Turkish** (Türkçe)
+- Technical/linguistic terms: **English** (Nominative Case, Palatalization, Aspect)
+- Russian examples: **Cyrillic + Transliteration + Turkish translation**
+- Persona: **Feminine** verb forms prioritized (-ла endings, студентка)
+
+**Violations Found:**
+
+| Issue | Examples | Frequency |
+|-------|----------|-----------|
+| Pure English headers | "HIERARCHY OF FUCK", "Heavy Slang" | Common |
+| Missing transliteration | Random across pages | Frequent |
+| Missing Turkish translation | Some tables | Occasional |
+| Masculine-defaulting | Most examples use он/он | Very Common |
 
 ---
 
-## CSS CLASSES REFERENCE
+## PHASE 1: RETROACTIVE UPGRADES (Priority)
 
-### Grammar Boxes (use for visual hierarchy)
-- `.grammar-box` - Default (orange accent)
-- `.grammar-box-blue` - Rules/patterns
-- `.grammar-box-green` - Positive examples
-- `.grammar-box-purple` - Special/advanced
-- `.grammar-box-orange` - Warnings/exceptions
+### 1.1 CRITICAL SKELETON PAGES (23 pages, < 3KB)
 
-### Alert Boxes
-- `.warning-box` - "Dikkat!" auto-prefix
-- `.grammar-box-warning` - "Onemli Uyari!" auto-prefix
-- `.tip-box` - "Ipucu" auto-prefix
+**Pages:** 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 59, 60, 62, 63, 66, 67, 69, 70, 71, 72, 73, 74, 75
 
-### Content Sections
-- `.cultural-note` - "Kulturel Not" auto-prefix
-- `.drill-section` - "Aliştirma" badge auto-added
-- `.summary-box` - Lesson recap
-- `.phonetics-box` - IPA/pronunciation
-- `.example-box` - Standalone examples
-- `.dialogue` + `.dialogue-line` - Conversations
+**Action:** Complete rewrite. These pages are essentially empty placeholders.
 
-### Tables
-- `.vocab-table` - Vocabulary (orange header)
-- `.conjugation-table` - Verb/case paradigms (black header)
+**Template for Densification:**
+1. Expand existing content to 3x-5x length
+2. Add structured vocabulary table (10-15 words)
+3. Add 3-5 grammar boxes with color coding
+4. Add 3-4 drill sections
+5. Add cultural note
+6. Add summary box
+7. Remove all inline styles
+8. Add proper semantic structure
 
-### Text Styling
-- `.cyrillic` / `.russian` - Russian text
-- `.transliteration` - Italic romanization
-- `.translation` - Muted Turkish translation
-- `.ipa` - IPA phonetic symbols
+**Estimated Work:** ~4-6 hours per page
+
+### 1.2 SEVERE UNDERDEVELOPMENT (18 pages, 3-4KB)
+
+**Pages:** 23, 24, 30, 31, 32, 33, 34, 36, 38, 40, 41, 42, 43, 44, 45
+
+**Action:** Major expansion. These have some content but are severely lacking.
+
+### 1.3 INADEQUATE PAGES (22 pages, 4-6KB)
+
+**Pages:** 06, 07, 08, 09, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28, 29, 35
+
+**Action:** Moderate expansion + design fixes.
+
+**Special Attention - NSFW CORE (Pages 17-23):**
+These are the "destination" pages that the entire textbook leads to. They need EXTRA care:
+
+| Page | Current | Topic | Priority |
+|------|---------|-------|----------|
+| 17 | 6.3KB | Heavy Slang & Negotiation | 🔴 HIGHEST |
+| 18 | 5.6KB | BDSM / Control | 🔴 HIGHEST |
+| 19 | 5.8KB | Oral / Exhibitionism | 🔴 HIGHEST |
+| 20 | 5.3KB | Negotiation II | 🔴 HIGHEST |
+| 21 | 5.4KB | Conflict & Ultimatum | 🔴 HIGHEST |
+| 22 | 5.4KB | Body Map II | 🔴 HIGHEST |
+| 23 | 4.2KB | Roleplay & Scripts | 🔴 HIGHEST |
+
+### 1.4 BORDERLINE/ACCEPTABLE PAGES (11 pages, 6-15KB)
+
+**Pages:** 01, 02, 03, 04, 05, 12, 37, 39, 58, 61, 64
+
+**Action:** Design cleanup + minor content additions.
+
+### 1.5 UNIVERSAL DESIGN FIX
+
+Apply to ALL 75 pages:
+
+1. **Remove inline styles** - Move to style.css
+2. **Remove `<style>` blocks** - Standardize classes
+3. **Add `<main>` semantic wrapper**
+4. **Update header** to include subtitle and page number
+5. **Update footer** to use `.page-navigation` structure
+6. **Ensure heading hierarchy** (h2 > h3 > h4)
+7. **Add missing CSS classes** to style.css
+
+---
+
+## PHASE 2: PLAYBOOK INTEGRATION
+
+### 2.1 Playbook Page Densification
+
+| Page | Current | Target | Topic | Status |
+|------|---------|--------|-------|--------|
+| 01 | 19.7KB | 20KB | Cyrillic Alphabet | ✅ GOLD |
+| 02 | ~25KB | 18KB | Vowels | ✅ DENSIFIED |
+| 03 | ~28KB | 18KB | Consonants | ✅ DENSIFIED |
+| 04 | 27.7KB | - | Greetings | ✅ GOLD |
+| 05 | ~30KB | 18KB | Pronouns | ✅ DENSIFIED |
+
+### 2.2 Playbook Content Additions ✅ ALL COMPLETED
+
+**Page 02 (Vowels) - DONE:**
+- ✅ Extended phonetics section with IPA chart
+- ✅ Iotified vowels grammar box (Я, Е, Ё, Ю)
+- ✅ Dialogue: Cafe scene with vowel reduction
+- ✅ 2 additional drill sections (8 total drills)
+- ✅ Feminine verb examples (читала, писала)
+- ✅ Warning box for Turkish speaker mistakes
+
+**Page 03 (Consonants) - DONE:**
+- ✅ Consonant cluster section (СТР, ЗДР)
+- ✅ Assimilation rules grammar box
+- ✅ Silent letters table
+- ✅ Dialogue demonstrating clusters (airport scene)
+- ✅ 9 drills (tongue twisters, minimal pairs included)
+
+**Page 05 (Pronouns) - DONE:**
+- ✅ Accusative/Dative preview table
+- ✅ Reflexive pronoun себя introduction
+- ✅ Extended pronoun dialogue (2 dialogues)
+- ✅ Possessive pronouns preview
+- ✅ 9 drills
+- ✅ Warning box: ты/вы mistakes with consequences
+
+---
+
+## PHASE 3: CONTENT BRIDGE (New Pages 6-16)
+
+These pages must bridge the academic foundation (Playbook 1-5) to the conversational content (Main Repo 10+).
+
+### Proposed Curriculum (Academic → Practical):
+
+| Page | Topic (Turkish) | Topic (English) | Key Grammar | Practical Application |
+|------|-----------------|-----------------|-------------|----------------------|
+| 06 | Vurgu ve Tonlama | Stress & Intonation | IK contours | Asking questions, expressing emotion |
+| 07 | Temel Fiiller I | Basic Verbs I | хотеть, мочь | "I want", "Can you..." |
+| 08 | Temel Fiiller II | Basic Verbs II | делать, идти | "What are you doing?", "Let's go" |
+| 09 | Hal Sistemi - Giriş | Case System Intro | Overview | Understanding Russian word endings |
+| 10 | Yalın Hal | Nominative Case | Subjects | "She is beautiful", "He is funny" |
+| 11 | Sahiplik | Possession | У меня есть | "I have...", "Do you have..." |
+| 12 | İstek ve Teklif | Wants & Offers | Давай, Хочешь | "Let's...", "Do you want to..." |
+| 13 | Yer ve Yön | Location & Direction | Где/Куда | "Where is...", "Let's go to..." |
+| 14 | Zaman İfadeleri | Time Expressions | сегодня, завтра | Making plans, scheduling |
+| 15 | Sıfatlar | Adjectives | Agreement | Describing people, compliments |
+| 16 | Karşılaştırma | Comparison | лучше, хуже | "Better", "Worse", preferences |
+
+**Design Standard:** Each page must meet 15KB minimum with full component set.
+
+---
+
+## PHASE 4: ADVANCED CONTENT (Pages 76-368)
+
+### Batch Structure (After Main Repo is Fixed):
+
+| Batch | Pages | Focus Area |
+|-------|-------|------------|
+| 1 | 76-95 | Cases Deep Dive (Accusative, Genitive) |
+| 2 | 96-115 | Verb Aspects (Perfective/Imperfective) |
+| 3 | 116-135 | Motion Verbs (идти/ходить) |
+| 4 | 136-155 | Advanced Flirting & Compliments |
+| 5 | 156-175 | Nightlife Scenarios |
+| 6 | 176-195 | Relationship Vocabulary |
+| 7 | 196-215 | Advanced NSFW Content |
+| 8 | 216-235 | Conflict & Resolution |
+| 9 | 236-255 | Slang Deep Dive |
+| 10 | 256-275 | Internet/Text Russian |
+| 11 | 276-295 | Cultural Deep Dives |
+| 12 | 296-315 | Advanced Grammar |
+| 13 | 316-335 | Reading Comprehension |
+| 14 | 336-355 | Speaking Practice |
+| 15 | 356-368 | Reference & Appendices |
+
+---
+
+## CSS CLASSES TO ADD TO style.css
+
+The following custom classes from main repo pages need standardization:
+
+```css
+/* From page_17 */
+.vulgar-header { } /* → Convert to .section-header-dark */
+.vulgar-table { }  /* → Use .vocab-table with modifier */
+
+/* From page_40 */
+.kayf-box { }      /* → Convert to .highlight-box-orange */
+.slang-word { }    /* → Convert to .emphasis-text */
+
+/* From page_46 */
+.joke-break { }    /* → Convert to .highlight-box-yellow */
+
+/* From page_72 */
+.idiom-alert { }   /* → Convert to .grammar-box-orange */
+
+/* Universal additions needed */
+.section-header-dark { }
+.highlight-box-yellow { }
+.highlight-box-orange { }
+.emphasis-text { }
+.answer { }        /* For drill answers */
+.ru-text { }       /* Alias for .cyrillic */
+```
+
+---
+
+## QUALITY CHECKLIST (Per Page)
+
+Before marking ANY page complete, verify:
+
+### Content (All Required)
+- [ ] File size ≥ 15KB
+- [ ] Vocabulary table: 10-15 words minimum
+- [ ] Grammar boxes: 3-5 with color variants (blue, green, purple, orange)
+- [ ] Drill sections: 3-4 exercises
+- [ ] Cultural note: 1 section minimum
+- [ ] Summary box: Present at end
+- [ ] Dialogue/Reading: Where applicable
+
+### Design (All Required)
+- [ ] ZERO inline styles
+- [ ] ZERO page-specific `<style>` blocks
+- [ ] All CSS classes exist in style.css
+- [ ] `.book-container` wrapper
+- [ ] `.penguin-header` with h1, subtitle, page number
+- [ ] `<main>` tag wrapping content
+- [ ] `.page-navigation` with prev/next
+- [ ] Consistent heading hierarchy (h2 > h3 > h4)
+
+### Language (All Required)
+- [ ] Main explanations in **Turkish**
+- [ ] Technical terms in **English** (Case names, grammatical terms)
+- [ ] Russian examples: Cyrillic + transliteration + Turkish
+- [ ] Feminine verb forms prioritized (-ла, студентка)
+- [ ] No pure-English section headers
 
 ---
 
 ## PRIORITY EXECUTION ORDER
 
-1. ~~**IMMEDIATE:** Densify Page 04 (lowest quality, missing summary)~~ **DONE 2026-01-25**
-2. **HIGH:** Densify Pages 02, 03, 05
-3. **STANDARD:** Create Pages 06-15 (next batch)
-4. **ONGOING:** Continue sequential page creation
+### Immediate (This Week)
+1. [x] Densify Playbook pages 02, 03, 05 → 18KB each ✅ COMPLETED 2026-01-25
+2. [ ] Fix Pages 17-23 (NSFW Core) → 15KB+ each
+3. [ ] Create CSS additions for custom classes
+
+### High (Next 2 Weeks)
+4. [ ] Fix SKELETON pages (46-75) → 15KB each
+5. [ ] Fix SEVERE pages (23-45) → 15KB each
+
+### Medium (Month 1)
+6. [ ] Fix INADEQUATE pages (06-22) → 15KB each
+7. [ ] Create new Playbook pages 06-16
+
+### Ongoing (Month 2+)
+8. [ ] Polish BORDERLINE pages (01-05, 37, 39, etc.)
+9. [ ] Begin Phase 4 content (76+)
 
 ---
 
@@ -266,15 +351,38 @@
 |------|------|-------------|
 | 2026-01-13 | style.css | Complete CSS framework (15.7KB) |
 | 2026-01-13 | index.html | Cover page with navigation |
-| 2026-01-13 | page_01.html | Cyrillic Alphabet - GOLD STANDARD (19.7KB) |
-| 2026-01-14 | page_02.html | Vowels - Basic version (8.5KB) |
-| 2026-01-14 | page_03.html | Consonants - Basic version (8.9KB) |
-| 2026-01-14 | page_04.html | Greetings - Basic version (6.4KB) |
-| 2026-01-14 | page_05.html | Pronouns - Basic version (8.1KB) |
-| 2026-01-25 | page_04.html | **DENSIFIED** - Greetings & Introductions (27.7KB) |
+| 2026-01-13 | page_01.html | Playbook - Cyrillic Alphabet (19.7KB) |
+| 2026-01-14 | page_02.html | Playbook - Vowels (8.5KB) |
+| 2026-01-14 | page_03.html | Playbook - Consonants (8.9KB) |
+| 2026-01-14 | page_04.html | Playbook - Basic version (6.4KB) |
+| 2026-01-14 | page_05.html | Playbook - Pronouns (8.1KB) |
+| 2026-01-25 | page_04.html | **DENSIFIED** - Greetings (27.7KB) ✅ GOLD STANDARD |
+| 2026-01-25 | AUDIT | Comprehensive quality audit complete |
+| 2026-01-25 | page_02.html | **DENSIFIED** - Vowels (~25KB) ✅ IPA charts, Iotated vowels, 2 dialogues, 8 drills |
+| 2026-01-25 | page_03.html | **DENSIFIED** - Consonants (~28KB) ✅ Assimilation rules, clusters, tongue twisters, 9 drills |
+| 2026-01-25 | page_05.html | **DENSIFIED** - Pronouns (~30KB) ✅ Case preview, себя, possessives, ты/вы warnings, 9 drills |
 
 ---
 
-*Document Version: 3.1*
+## APPENDIX: GOLD STANDARD EXAMPLE
+
+**Reference File:** `ralph-playbook/files/pages/page_04.html` (27.7KB)
+
+This page demonstrates:
+- Proper semantic structure (`<main>`, `<section>`, `<nav>`)
+- Multiple grammar boxes with color variants
+- Comprehensive vocabulary tables
+- 7+ drill sections with varying formats
+- 2 cultural notes with deep context
+- 2 dialogues (formal and informal)
+- Proper phonetics boxes with IPA
+- Summary box at end
+- Zero inline styles
+- Turkish explanations with English technical terms
+- Feminine-focused examples throughout
+
+---
+
+*Document Version: 6.0*
 *Last Updated: 2026-01-25*
-*Project Status: PHASE 1 - RETROACTIVE DENSIFICATION IN PROGRESS (1/4 complete)*
+*Project Status: PHASE 2 PLAYBOOK DENSIFICATION COMPLETE - ALL 5 PAGES NOW GOLD STANDARD*
