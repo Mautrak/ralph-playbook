@@ -639,3 +639,203 @@ p {
         font-size: 1.15rem;
     }
 }
+
+/* ==========================================================================
+   Standardized Classes (Migrated from Main Repo)
+   ========================================================================== */
+
+/* Section Header - Dark Variant (replaces .vulgar-header) */
+.section-header-dark {
+    background: var(--penguin-black);
+    color: var(--penguin-white);
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-xl) 0 var(--space-md);
+    border-radius: var(--radius-md);
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.section-header-dark.with-accent {
+    border-left: 4px solid var(--penguin-orange);
+}
+
+/* Highlight Box - Yellow (replaces .joke-break) */
+.highlight-box-yellow {
+    background-color: #fffbea;
+    border-left: 4px solid #f6c23e;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+    font-style: italic;
+}
+
+.highlight-box-yellow::before {
+    content: "💡";
+    margin-right: var(--space-sm);
+}
+
+/* Highlight Box - Orange (replaces .kayf-box) */
+.highlight-box-orange {
+    background-color: #fff5eb;
+    border-left: 4px solid #ff9800;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: var(--space-md) var(--space-lg);
+    margin: var(--space-md) 0;
+}
+
+.highlight-box-orange h4 {
+    color: #e65100;
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+}
+
+/* Emphasis Text (replaces .slang-word) */
+.emphasis-text {
+    font-weight: 700;
+    color: var(--penguin-orange-dark);
+    background: linear-gradient(180deg, transparent 60%, rgba(255, 107, 53, 0.2) 60%);
+    padding: 0 var(--space-xs);
+}
+
+/* Russian Text Alias - for compatibility */
+.ru-text {
+    font-family: var(--font-cyrillic);
+    font-size: 1.1em;
+    color: var(--penguin-black);
+}
+
+/* Slang/Colloquial Label */
+.slang-label {
+    display: inline-block;
+    background: var(--penguin-black);
+    color: var(--penguin-white);
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: var(--radius-sm);
+    margin-left: var(--space-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    vertical-align: middle;
+}
+
+.slang-label.vulgar {
+    background: #c0392b;
+}
+
+.slang-label.mat {
+    background: #8e44ad;
+}
+
+.slang-label.casual {
+    background: #27ae60;
+}
+
+/* Intensity Indicator */
+.intensity {
+    display: inline-flex;
+    gap: 2px;
+    margin-left: var(--space-xs);
+    vertical-align: middle;
+}
+
+.intensity-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border-medium);
+}
+
+.intensity-dot.active {
+    background: var(--penguin-orange);
+}
+
+.intensity-dot.active.high {
+    background: #e74c3c;
+}
+
+/* Dialog Box - for scenario/roleplay content */
+.scenario-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    margin: var(--space-xl) 0;
+    position: relative;
+}
+
+.scenario-box::before {
+    content: "Senaryo";
+    position: absolute;
+    top: -10px;
+    left: var(--space-lg);
+    background: var(--penguin-orange);
+    color: white;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.scenario-box h4 {
+    margin-top: var(--space-sm);
+    color: var(--text-primary);
+}
+
+/* Safety/Consent Box - for NSFW content */
+.safety-box {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    border: 2px solid #4caf50;
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    margin: var(--space-xl) 0;
+}
+
+.safety-box::before {
+    content: "Guvenlik & Onay";
+    font-weight: 700;
+    color: #2e7d32;
+    display: block;
+    margin-bottom: var(--space-sm);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Vocab Table - Dark Variant (for mature content) */
+.vocab-table-dark thead {
+    background: var(--penguin-black);
+}
+
+.vocab-table-dark tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Power Dynamic Indicator */
+.power-indicator {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    background: var(--bg-subtle);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+}
+
+.power-indicator .dominant {
+    color: #8e44ad;
+    font-weight: 700;
+}
+
+.power-indicator .submissive {
+    color: #3498db;
+    font-weight: 700;
+}
+
+.power-indicator .arrow {
+    color: var(--text-muted);
+}

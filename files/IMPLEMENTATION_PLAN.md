@@ -262,32 +262,31 @@ These pages must bridge the academic foundation (Playbook 1-5) to the conversati
 
 ---
 
-## CSS CLASSES TO ADD TO style.css
+## CSS CLASSES ADDED TO style.css ✅ COMPLETED
 
-The following custom classes from main repo pages need standardization:
+The following custom classes have been standardized and added:
 
 ```css
-/* From page_17 */
-.vulgar-header { } /* → Convert to .section-header-dark */
-.vulgar-table { }  /* → Use .vocab-table with modifier */
+/* IMPLEMENTED 2026-01-25 */
+.section-header-dark { }       /* ✅ Replaces .vulgar-header */
+.section-header-dark.with-accent { }
+.highlight-box-yellow { }      /* ✅ Replaces .joke-break */
+.highlight-box-orange { }      /* ✅ Replaces .kayf-box */
+.emphasis-text { }             /* ✅ Replaces .slang-word */
+.ru-text { }                   /* ✅ Alias for .cyrillic */
+.slang-label { }               /* ✅ NEW - labels for slang/mat/casual */
+.slang-label.vulgar { }
+.slang-label.mat { }
+.slang-label.casual { }
+.intensity { }                 /* ✅ NEW - intensity dots */
+.scenario-box { }              /* ✅ NEW - roleplay scenarios */
+.safety-box { }                /* ✅ NEW - consent/safety warnings */
+.vocab-table-dark { }          /* ✅ Replaces .vulgar-table */
+.power-indicator { }           /* ✅ NEW - power dynamics */
 
-/* From page_40 */
-.kayf-box { }      /* → Convert to .highlight-box-orange */
-.slang-word { }    /* → Convert to .emphasis-text */
-
-/* From page_46 */
-.joke-break { }    /* → Convert to .highlight-box-yellow */
-
-/* From page_72 */
-.idiom-alert { }   /* → Convert to .grammar-box-orange */
-
-/* Universal additions needed */
-.section-header-dark { }
-.highlight-box-yellow { }
-.highlight-box-orange { }
-.emphasis-text { }
-.answer { }        /* For drill answers */
-.ru-text { }       /* Alias for .cyrillic */
+/* Already existed */
+.answer { }                    /* ✅ Already in style.css */
+.grammar-box-orange { }        /* ✅ Already in style.css (replaces .idiom-alert) */
 ```
 
 ---
@@ -329,7 +328,7 @@ Before marking ANY page complete, verify:
 ### Immediate (This Week)
 1. [x] Densify Playbook pages 02, 03, 05 → 18KB each ✅ COMPLETED 2026-01-25
 2. [x] Fix Pages 17-23 (NSFW Core) → 15KB+ each ✅ ALL 7 PAGES GOLD STANDARD 2026-01-25
-3. [ ] Create CSS additions for custom classes
+3. [x] Create CSS additions for custom classes ✅ COMPLETED 2026-01-25
 
 ### High (Next 2 Weeks)
 4. [ ] Fix SKELETON pages (46-75) → 15KB each
@@ -368,6 +367,7 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_21.html | **DENSIFIED** - Conflict & Ultimatum (21.9KB) ✅ Conditional sentences, defense/offense phrases, de-escalation, Mat usage, 2 dialogues, 5 drills |
 | 2026-01-25 | page_22.html | **DENSIFIED** - Body Map & Sensations (20.6KB) ✅ Detailed body parts, intimacy levels, sensory adjectives, touch verbs, reflexive себя, 2 dialogues, 5 drills |
 | 2026-01-25 | page_23.html | **DENSIFIED** - Roleplay & Scripts (48.1KB) ✅ Power dynamics, role titles, command grammar, permission/denial, praise/punishment, safe words, aftercare, 3 scenarios, 2 dialogues, 6 drills |
+| 2026-01-25 | style.css | **CSS ADDITIONS** - Standardized classes for main repo migration ✅ .section-header-dark, .highlight-box-yellow, .highlight-box-orange, .emphasis-text, .ru-text, .slang-label, .intensity, .scenario-box, .safety-box, .vocab-table-dark, .power-indicator |
 
 ---
 
@@ -390,6 +390,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 9.0*
+*Document Version: 10.0*
 *Last Updated: 2026-01-25*
-*Project Status: NSFW CORE COMPLETE - ALL 7 PAGES (17-23) GOLD STANDARD ✅*
+*Project Status: IMMEDIATE PRIORITIES COMPLETE - CSS standardization done, ready for SKELETON pages ✅*
