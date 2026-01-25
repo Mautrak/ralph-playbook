@@ -381,6 +381,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | page_16.html | **NEW** - Karsilastirma / Comparison (50.3KB) ✅ GOLD STANDARD - Comparative formation (-ее/-ей), consonant mutations (к→ч, г→ж, х→ш, ст→щ), irregular comparatives (лучше/хуже/больше/меньше), superlative with самый, чем construction vs genitive, degree modifiers (гораздо/намного/немного), equality with такой же...как, preference expressions (больше нравится/предпочитаю), по- softening prefix, age comparison patterns, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_17.html | **NEW** - Argo ve Pazarlik / Slang & Negotiation (31.6KB) ✅ GOLD STANDARD - Mat system (4 root words), sexual activity verbs (politeness levels), body parts slang, negotiation phrases, rejection expressions (kibar→mat), drug slang, кайф etymology (from Turkish keyif!), reflexive verb conjugation, 2 dialogues, 8 drills, 3 cultural notes |
 | 2026-01-26 | page_18.html | **NEW** - BDSM ve Kontrol / BDSM & Control (36.9KB) ✅ GOLD STANDARD - Consent vocabulary (согласие, границы, безопасное слово), traffic light system, power dynamics roles (дом/саб/Госпожа/Хозяин), Imperative mood formation, position commands (На колени!, Руки за спину!), comparative adverbs for intensity, praise/discipline phrases, BDSM equipment vocab, aftercare expressions, 2 dialogues, 8 drills, 2 cultural notes |
+| 2026-01-26 | page_19.html | **NEW** - Oral ve Sosyal Medya / Oral & Social Media (34.8KB) ✅ GOLD STANDARD - Oral activity vocabulary (минет/куни, politeness levels), verb conjugations (сосать/лизать), consonant mutation (з→ж), sensory feedback expressions, Russian social media platforms (VK/Telegram/Odnoklassniki), messaging abbreviations (спс/пж/хз/кст), parenthesis smile culture )))/((( , flirt messaging patterns, emoji/sticker culture, 2 dialogues, 8 drills, 3 cultural notes |
 
 ---
 
@@ -403,6 +404,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 23.0*
+*Document Version: 24.0*
 *Last Updated: 2026-01-26*
-*Project Status: Phase 3 EXTENDED - Playbook pages 01-18 complete! Page 18 (BDSM ve Kontrol) added. Continuing pages 19-23 in playbook.*
+*Project Status: Phase 3 EXTENDED - Playbook pages 01-19 complete! Page 19 (Oral ve Sosyal Medya) added. Continuing pages 20-23 in playbook.*
