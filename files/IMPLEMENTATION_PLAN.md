@@ -148,7 +148,7 @@ These are the "destination" pages that the entire textbook leads to. They need E
 | Page | Current | Topic | Priority |
 |------|---------|-------|----------|
 | 17 | 24KB | Heavy Slang & Negotiation | ✅ GOLD |
-| 18 | 5.6KB | BDSM / Control | 🔴 HIGHEST |
+| 18 | ~22KB | BDSM / Control | ✅ GOLD |
 | 19 | 5.8KB | Oral / Exhibitionism | 🔴 HIGHEST |
 | 20 | 5.3KB | Negotiation II | 🔴 HIGHEST |
 | 21 | 5.4KB | Conflict & Ultimatum | 🔴 HIGHEST |
@@ -362,6 +362,7 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_03.html | **DENSIFIED** - Consonants (~28KB) ✅ Assimilation rules, clusters, tongue twisters, 9 drills |
 | 2026-01-25 | page_05.html | **DENSIFIED** - Pronouns (~30KB) ✅ Case preview, себя, possessives, ты/вы warnings, 9 drills |
 | 2026-01-25 | page_17.html | **DENSIFIED** - Argo & Pazarlik (24KB) ✅ Mat system, body slang, negotiation, rejection phrases, drug slang, 7 drills, 3 cultural notes |
+| 2026-01-25 | page_18.html | **DENSIFIED** - BDSM & Kontrol (~22KB) ✅ Consent/safety vocab, imperative mood, positions, power dynamics, dirty talk, 2 dialogues, 6 drills, 2 cultural notes |
 
 ---
 
@@ -384,6 +385,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 7.0*
+*Document Version: 8.0*
 *Last Updated: 2026-01-25*
-*Project Status: NSFW CORE DENSIFICATION IN PROGRESS - PAGE 17 COMPLETE (1/7)*
+*Project Status: NSFW CORE DENSIFICATION IN PROGRESS - PAGES 17-18 COMPLETE (2/7)*
