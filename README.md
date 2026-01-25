@@ -1,5 +1,16 @@
 ﻿# The Ralph Playbook
 
+> ## ⚠️ ARŞİV NOTU (2026-01-26)
+>
+> **Bu playbook artık dondurulmuştur.** Yeni sayfa eklenmeyecek.
+>
+> - Playbook sayfaları (01-19) referans olarak korunacak
+> - Tüm yeni geliştirme **main repo** üzerinde yapılacak
+> - Playbook CSS ve bileşenleri main repo'ya entegre edildi
+> - Detaylar için bkz: `files/IMPLEMENTATION_PLAN.md`
+
+---
+
 December 2025 boiled [Ralph's](https://ghuntley.com/ralph/) powerful yet dumb little face to the top of most AI-related timelines.
 
 I try to pay attention to the crazy-smart insights [@GeoffreyHuntley](https://x.com/GeoffreyHuntley) shares, but I can't say Ralph really clicked for me this summer. Now, all of the recent hubbub has made it hard to ignore.

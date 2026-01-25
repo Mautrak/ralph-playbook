@@ -2,25 +2,70 @@
 
 ## PROJECT STATUS OVERVIEW
 
-**Last Updated:** 2026-01-25
-**Total Target:** 368 pages
+**Last Updated:** 2026-01-26
+**Status:** 🛑 PLAYBOOK FROZEN - Main Repo'ya odaklan
+**Total Target:** 75 pages (main repo)
 **Pages Existing (Main Repo):** 75 pages
-**Pages Existing (Playbook):** 13 pages (page_01-13)
-**Quality Standard:** "Double Density" + "Penguin Books Modern UI"
-**Target Outcome:** Non-speaker → Comfortable with Pages 17-23 content (flirting, nightlife, NSFW)
+**Pages Existing (Playbook):** 19 pages (page_01-19) - ARŞİVLENDİ
+**Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Rusçası
+
+---
+
+## 🎯 GERÇEK PROJE AMACI
+
+**Ukrayna'da yaşayan kadın için pratik sokak Rusçası:**
+
+| Hedef | Açıklama |
+|-------|----------|
+| **Sokakta tanışma** | Kızlarla tanışmak, ilk temas, numara almak |
+| **Flört ve davet** | İltifat etmek, ilgi çekmek, eve/otele davet |
+| **Cinsel iletişim** | Açık açık cinsel konuları konuşmak, sınır belirlemek, onay almak |
+| **İlişki anlatımı** | Erkek arkadaşı tanıtmak, durumu açıklamak, dürüst olmak |
+| **Hikaye anlatma** | Maceralar, tecrübeler, yaşanmışlıklar paylaşmak |
+| **Pratik cümleler** | Hemen kullanılabilir, ezberlenebilir kalıplar |
+
+### Tipik Senaryo
+
+```
+1. Dışarıda yalnız tanışıyorsun (bar, kafe, sokak)
+2. Kızla flört ediyorsun
+3. Erkek arkadaşından bahsediyorsun - durumu açıklıyorsun
+4. Maceralarını, tecrübelerini anlatıyorsun
+5. Eve davet edip tanıştırıyorsun
+```
+
+**Bu bir akademik ders kitabı DEĞİL.** Akademik dilbilgisi ikinci planda. Öncelik: sokakta hemen işe yarar Rusça.
+
+---
+
+**Target Outcome:** Sokakta tanışma, flört, eve davet, cinsel konuşmalar
+
+---
+
+## ⚠️ DURUM DEĞİŞİKLİĞİ - 2026-01-26
+
+**PLAYBOOK GENİŞLEMESİ DURDURULDU.**
+
+Kullanıcı geri bildirimi: İki ayrı proje yerine TEK proje olmalı. Main repo'nun "sokak Rusçası" ruhu korunmalı. Playbook içeriği akademik ve yavaş - kullanıcının ihtiyacı hızlı, pratik, sokakta hemen kullanılabilir Rusça.
+
+**YENİ STRATEJİ:**
+1. Playbook'a yeni sayfa EKLEME
+2. Playbook CSS'ini main repo'ya uygula
+3. Playbook içeriğini main repo'ya opsiyonel bölümler olarak entegre et
+4. Main repo sayfalarını (özellikle 10-25) düzelt ve güzelleştir
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-The project has **two parallel systems** that need to be **merged strategically**:
+~~The project has **two parallel systems** that need to be **merged strategically**:~~
 
-| Repository | Content Focus | Design Quality | Content Density | Pages |
-|------------|--------------|----------------|-----------------|-------|
-| **Main Repo** | Street Russian (flirting, NSFW, nightlife) | ❌ "Windows 3.1" | ❌ Sparse (avg 4KB) | 75 |
-| **Playbook** | Academic fundamentals (alphabet, grammar) | ✅ Modern Penguin | ✅ Dense (avg 15KB) | 5 |
+| Repository | Content Focus | Design Quality | Content Density | Pages | Durum |
+|------------|--------------|----------------|-----------------|-------|-------|
+| **Main Repo** | Street Russian (flirting, NSFW, nightlife) | 🔄 Güncelleniyor | 🔄 Artırılıyor | 75 | ✅ AKTİF |
+| **Playbook** | Academic fundamentals (alphabet, grammar) | ✅ Modern Penguin | ✅ Dense (avg 30KB) | 19 | 🛑 FROZEN |
 
-**THE VISION:** Create a unified textbook that uses the **Playbook's design standards and density** to teach the **Main Repo's practical content**. The academic foundation (pages 1-16) must lead naturally to the conversational/NSFW content (pages 17+).
+**THE NEW VISION:** Main repo TEK proje olarak kalacak. Playbook tasarım standartları main repo'ya uygulanacak. Playbook içeriği opsiyonel olarak gerektigi yerde main repoya ekstra icerik olarak appendlenecek ve bunun icin korunacak ama genişletilmeyecek.
 
 ---
 
@@ -404,6 +449,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 24.0*
+*Document Version: 25.0*
 *Last Updated: 2026-01-26*
-*Project Status: Phase 3 EXTENDED - Playbook pages 01-19 complete! Page 19 (Oral ve Sosyal Medya) added. Continuing pages 20-23 in playbook.*
+*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt.*
