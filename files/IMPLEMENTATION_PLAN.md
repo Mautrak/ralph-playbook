@@ -379,6 +379,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | page_14.html | **NEW** - Zaman Ifadeleri / Time Expressions (42.6KB) ✅ GOLD STANDARD - Basic time adverbs (сегодня/вчера/завтра), days of week with в+Acc and по+Dat, months with Prepositional, seasons with Instrumental, clock time, time prepositions (через/после/до/перед), day parts, frequency expressions, plan-making phrases, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_15.html | **NEW** - Sifatlar / Adjectives (49.9KB) ✅ GOLD STANDARD - Long vs short form adjectives, intensifiers (очень/слишком/довольно), color adjectives with синий vs голубой distinction, eye/hair color compounds, compliment patterns (Какая ты красивая!), advanced physical/personality adjectives, diplomatic negation, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-26 | page_16.html | **NEW** - Karsilastirma / Comparison (50.3KB) ✅ GOLD STANDARD - Comparative formation (-ее/-ей), consonant mutations (к→ч, г→ж, х→ш, ст→щ), irregular comparatives (лучше/хуже/больше/меньше), superlative with самый, чем construction vs genitive, degree modifiers (гораздо/намного/немного), equality with такой же...как, preference expressions (больше нравится/предпочитаю), по- softening prefix, age comparison patterns, 2 dialogues, 7 drills, 2 cultural notes |
+| 2026-01-26 | page_17.html | **NEW** - Argo ve Pazarlik / Slang & Negotiation (31.6KB) ✅ GOLD STANDARD - Mat system (4 root words), sexual activity verbs (politeness levels), body parts slang, negotiation phrases, rejection expressions (kibar→mat), drug slang, кайф etymology (from Turkish keyif!), reflexive verb conjugation, 2 dialogues, 8 drills, 3 cultural notes |
 
 ---
 
@@ -401,6 +402,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 21.0*
+*Document Version: 22.0*
 *Last Updated: 2026-01-26*
-*Project Status: Phase 3 COMPLETE ✅ - All pages 06-16 finished! Phase 4 (pages 76+) and retroactive fixes (46-75, 23-45, 06-22) ready to begin.*
+*Project Status: Phase 3 EXTENDED - Playbook pages 01-17 complete! Page 17 (Argo ve Pazarlik) added to bridge academic content to NSFW core. Continuing pages 18-23 in playbook.*
