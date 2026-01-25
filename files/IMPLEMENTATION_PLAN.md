@@ -5,7 +5,7 @@
 **Last Updated:** 2026-01-25
 **Total Target:** 368 pages
 **Pages Existing (Main Repo):** 75 pages
-**Pages Existing (Playbook):** 9 pages (page_01-09)
+**Pages Existing (Playbook):** 10 pages (page_01-10)
 **Quality Standard:** "Double Density" + "Penguin Books Modern UI"
 **Target Outcome:** Non-speaker → Comfortable with Pages 17-23 content (flirting, nightlife, NSFW)
 
@@ -336,7 +336,7 @@ Before marking ANY page complete, verify:
 
 ### Medium (Month 1)
 6. [ ] Fix INADEQUATE pages (06-22) → 15KB each
-7. [~] Create new Playbook pages 06-16 (page_06 ✅ DONE, page_07 ✅ DONE, page_08 ✅ DONE, page_09 ✅ DONE)
+7. [~] Create new Playbook pages 06-16 (page_06 ✅ DONE, page_07 ✅ DONE, page_08 ✅ DONE, page_09 ✅ DONE, page_10 ✅ DONE)
 
 ### Ongoing (Month 2+)
 8. [ ] Polish BORDERLINE pages (01-05, 37, 39, etc.)
@@ -372,6 +372,7 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_07.html | **NEW** - Temel Fiiller I (36.8KB) ✅ GOLD STANDARD - хотеть (want) and мочь (can) conjugations, мочь vs уметь distinction, можно/нельзя, negation patterns, 2 dialogues, 6 drills, 2 cultural notes |
 | 2026-01-25 | page_08.html | **NEW** - Temel Fiiller II (38.4KB) ✅ GOLD STANDARD - делать (to do/make) and идти/ходить (verbs of motion), unidirectional vs multidirectional distinction, давай/пойдём patterns, 2 dialogues, 6 drills, 2 cultural notes |
 | 2026-01-25 | page_09.html | **NEW** - Hal Sistemi Giriş (36.2KB) ✅ GOLD STANDARD - Introduction to 6 Russian cases, Turkish-Russian case comparison, gender review, animacy distinction, 2 dialogues, 6 drills, 2 cultural notes |
+| 2026-01-25 | page_10.html | **NEW** - Yalın Hal / Nominative Case (39.6KB) ✅ GOLD STANDARD - Adjective agreement, demonstrative pronouns, possessive pronouns, question formation, physical/personality adjectives, 2 dialogues, 7 drills, 2 cultural notes |
 
 ---
 
@@ -394,6 +395,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 14.0*
+*Document Version: 15.0*
 *Last Updated: 2026-01-25*
-*Project Status: Phase 3 IN PROGRESS - page_06.html, page_07.html, page_08.html, and page_09.html complete, continuing bridge pages 10-16 ✅*
+*Project Status: Phase 3 IN PROGRESS - page_06.html through page_10.html complete, continuing bridge pages 11-16 ✅*
