@@ -5,7 +5,7 @@
 **Last Updated:** 2026-01-25
 **Total Target:** 368 pages
 **Pages Existing (Main Repo):** 75 pages
-**Pages Existing (Playbook):** 12 pages (page_01-12)
+**Pages Existing (Playbook):** 13 pages (page_01-13)
 **Quality Standard:** "Double Density" + "Penguin Books Modern UI"
 **Target Outcome:** Non-speaker → Comfortable with Pages 17-23 content (flirting, nightlife, NSFW)
 
@@ -336,7 +336,7 @@ Before marking ANY page complete, verify:
 
 ### Medium (Month 1)
 6. [ ] Fix INADEQUATE pages (06-22) → 15KB each
-7. [~] Create new Playbook pages 06-16 (page_06 ✅ DONE, page_07 ✅ DONE, page_08 ✅ DONE, page_09 ✅ DONE, page_10 ✅ DONE, page_11 ✅ DONE, page_12 ✅ DONE)
+7. [~] Create new Playbook pages 06-16 (page_06 ✅ DONE, page_07 ✅ DONE, page_08 ✅ DONE, page_09 ✅ DONE, page_10 ✅ DONE, page_11 ✅ DONE, page_12 ✅ DONE, page_13 ✅ DONE)
 
 ### Ongoing (Month 2+)
 8. [ ] Polish BORDERLINE pages (01-05, 37, 39, etc.)
@@ -375,6 +375,7 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_10.html | **NEW** - Yalın Hal / Nominative Case (39.6KB) ✅ GOLD STANDARD - Adjective agreement, demonstrative pronouns, possessive pronouns, question formation, physical/personality adjectives, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-25 | page_11.html | **NEW** - Sahiplik / Possession (34.2KB) ✅ GOLD STANDARD - У меня есть construction, genitive pronouns, negation with нет, есть omission rules, names in genitive, 2 dialogues, 7 drills, 2 cultural notes |
 | 2026-01-25 | page_12.html | **NEW** - Istek ve Teklif / Wants & Offers (36.1KB) ✅ GOLD STANDARD - Давай/Давайте constructions, Хочешь patterns, accept/decline phrases, time/place specification, Мне хочется vs Я хочу, 2 dialogues, 7 drills, 2 cultural notes |
+| 2026-01-26 | page_13.html | **NEW** - Yer ve Yon / Location & Direction (38.5KB) ✅ GOLD STANDARD - Где vs Куда distinction, Prepositional Case, Accusative with direction, В vs На prepositions, location adverbs, Откуда + Genitive, К + Dative for people, position verbs (стоять/лежать/сидеть/висеть), direction giving, 2 dialogues, 7 drills, 2 cultural notes |
 
 ---
 
@@ -397,6 +398,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 17.0*
-*Last Updated: 2026-01-25*
-*Project Status: Phase 3 IN PROGRESS - page_06.html through page_12.html complete, continuing bridge pages 13-16 ✅*
+*Document Version: 18.0*
+*Last Updated: 2026-01-26*
+*Project Status: Phase 3 IN PROGRESS - page_06.html through page_13.html complete, continuing bridge pages 14-16 ✅*
