@@ -87,7 +87,7 @@ Almost every page in the main repo contains:
 | 72 | 2.5KB | ❌ 0 | ❌ 1 | ❌ 1 | ❌ No | ❌ No | SKELETON |
 | 46 | 2.7KB | ❌ 0 | ❌ 2 | ❌ 1 | ❌ No | ❌ No | SKELETON |
 | 40 | 3.2KB | ❌ 0 | ❌ 1 | ❌ 1 | ❌ No | ❌ No | SKELETON |
-| 17 | 6.3KB | ✅ 1 | ✅ 3 | ❌ 1 | ❌ No | ❌ No | INADEQUATE |
+| 17 | 24KB | ✅ 4 | ✅ 8 | ✅ 7 | ✅ 3 | ✅ Yes | **GOLD** |
 | 65 | 14.6KB | ✅ 1 | ✅ 5 | ✅ 4 | ✅ Yes | ❌ No | BORDERLINE |
 | PB-04 | 27.7KB | ✅ 3 | ✅ 8 | ✅ 7 | ✅ 2 | ✅ Yes | **GOLD** |
 
@@ -147,7 +147,7 @@ These are the "destination" pages that the entire textbook leads to. They need E
 
 | Page | Current | Topic | Priority |
 |------|---------|-------|----------|
-| 17 | 6.3KB | Heavy Slang & Negotiation | 🔴 HIGHEST |
+| 17 | 24KB | Heavy Slang & Negotiation | ✅ GOLD |
 | 18 | 5.6KB | BDSM / Control | 🔴 HIGHEST |
 | 19 | 5.8KB | Oral / Exhibitionism | 🔴 HIGHEST |
 | 20 | 5.3KB | Negotiation II | 🔴 HIGHEST |
@@ -361,6 +361,7 @@ Before marking ANY page complete, verify:
 | 2026-01-25 | page_02.html | **DENSIFIED** - Vowels (~25KB) ✅ IPA charts, Iotated vowels, 2 dialogues, 8 drills |
 | 2026-01-25 | page_03.html | **DENSIFIED** - Consonants (~28KB) ✅ Assimilation rules, clusters, tongue twisters, 9 drills |
 | 2026-01-25 | page_05.html | **DENSIFIED** - Pronouns (~30KB) ✅ Case preview, себя, possessives, ты/вы warnings, 9 drills |
+| 2026-01-25 | page_17.html | **DENSIFIED** - Argo & Pazarlik (24KB) ✅ Mat system, body slang, negotiation, rejection phrases, drug slang, 7 drills, 3 cultural notes |
 
 ---
 
@@ -383,6 +384,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 6.0*
+*Document Version: 7.0*
 *Last Updated: 2026-01-25*
-*Project Status: PHASE 2 PLAYBOOK DENSIFICATION COMPLETE - ALL 5 PAGES NOW GOLD STANDARD*
+*Project Status: NSFW CORE DENSIFICATION IN PROGRESS - PAGE 17 COMPLETE (1/7)*
