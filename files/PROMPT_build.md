@@ -1,4 +1,4 @@
-0a. Study `progress_checklist.md` and `pages/*.html` to learn the application specifications and current content style (Penguin Books, Double Density). Prefer parallel reads where possible.
+0a. Study `IMPLEMENTATION_PLAN.md` and `pages/*.html` to learn the application specifications and current content style (Penguin Books, Double Density). Prefer parallel reads where possible.
 0b. Study @IMPLEMENTATION_PLAN.md.
 0c. For reference, the application source code is in `src/*` (actually `pages/` and `style.css` in this root).
 

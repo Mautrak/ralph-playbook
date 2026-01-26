@@ -18,7 +18,7 @@ Run these checks after implementing a page:
 - `index.html`: Cover page.
 - `style.css`: Global styles (Penguin theme).
 - `pages/`: Directory containing individual lesson pages (e.g., `page_01.html`).
-- `progress_checklist.md`: Single source of truth for page conversion status.
+- `IMPLEMENTATION_PLAN.md`: Single source of truth for project status and progress.
 
 ### Critical Implementation Rules
 1. **Double Density:** Every page must be rich. Explain "Why?" not just "What?". Add drills, nuances, and tables.
