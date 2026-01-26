@@ -431,6 +431,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | index.html, style.css | **REFACTOR** - Moved cover page inline styles from index.html to style.css for consistency ✅ |
 | 2026-01-26 | MAIN REPO page_46.html | **DENSIFIED** - Humor ve Sosyal Kalibrasyon (32.1KB) ✅ GOLD STANDARD - Komar joke, social validation phrases (Бинго!/Молодец!/Умница!), flirt signals (Типа, игра началась?), reflexive verb conjugation (смеяться/улыбаться), типа filler word usage, humor vocabulary table (12 words), 2 dialogues, 6 drills, 2 cultural notes, summary box |
 | 2026-01-26 | MAIN REPO page_47.html | **DENSIFIED** - Pressure Tactics / Bahsi Arttirmak (37.2KB) ✅ GOLD STANDARD - За + Accusative time duration, urgency phrases (Сейчас или никогда/Время идёт/Это последний шанс), stakes raising (повышать ставки), Пока не construction, короче filler word, иначе conditional threats, повышать conjugation, 2 dialogues, 8 drills, 2 cultural notes, summary box |
+| 2026-01-26 | MAIN REPO page_48.html | **DENSIFIED** - Zero Sum & Boundaries / Odesme ve Sinir Koyma (41.5KB) ✅ GOLD STANDARD - В ноль выходить construction (breaking even), boundary phrases (в пределах разумного, это мой предел, хватит vs достаточно), reflexive verbs (договориться, определиться) conjugation, reciprocity expressions (услуга за услугу, баш на баш - Turkce'den!), short-form adjectives (готов/согласен), выходить/выйти conjugation tables, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 
 ---
 
@@ -453,6 +454,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 29.0*
+*Document Version: 30.0*
 *Last Updated: 2026-01-26*
-*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt. Main repo page_46, page_47 densified.*
+*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt. Main repo page_46, page_47, page_48 densified.*
