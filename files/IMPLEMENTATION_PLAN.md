@@ -53,7 +53,7 @@ Kullanıcı geri bildirimi: İki ayrı proje yerine TEK proje olmalı. Main repo
 2. Playbook CSS'ini main repo'ya uygula
 3. Playbook içeriğini main repo'ya opsiyonel bölümler olarak entegre et
 4. Main repo sayfalarını (özellikle 10-25) düzelt ve güzelleştir
-
+5. Main repo sayfalarini BITIR.
 ---
 
 ## EXECUTIVE SUMMARY
