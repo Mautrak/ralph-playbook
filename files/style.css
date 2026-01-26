@@ -839,3 +839,108 @@ p {
 .power-indicator .arrow {
     color: var(--text-muted);
 }
+
+/* ==========================================================================
+   Cover Page Styles
+   ========================================================================== */
+
+.cover-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, var(--penguin-orange) 0%, var(--penguin-orange-dark) 100%);
+    color: white;
+    padding: var(--space-xl);
+}
+
+.cover-title {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-md);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.cover-subtitle {
+    font-size: 1.5rem;
+    opacity: 0.95;
+    margin-bottom: var(--space-2xl);
+    font-style: italic;
+}
+
+.cover-cyrillic {
+    font-family: var(--font-cyrillic);
+    font-size: 2rem;
+    margin-bottom: var(--space-3xl);
+    opacity: 0.9;
+}
+
+.cover-info {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    margin-bottom: var(--space-xl);
+}
+
+.cover-enter {
+    display: inline-block;
+    background: var(--penguin-black);
+    color: white;
+    text-decoration: none;
+    padding: var(--space-md) var(--space-xl);
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cover-enter:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Table of Contents */
+.toc-section {
+    max-width: 600px;
+    margin: var(--space-3xl) auto;
+    text-align: left;
+    background: rgba(255,255,255,0.1);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+}
+
+.toc-section h2 {
+    border-bottom-color: rgba(255,255,255,0.3);
+    color: white;
+    margin-top: 0;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.toc-list a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toc-list a:hover {
+    text-decoration: underline;
+}
+
+.page-range {
+    opacity: 0.7;
+}
