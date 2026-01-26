@@ -433,6 +433,7 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | MAIN REPO page_47.html | **DENSIFIED** - Pressure Tactics / Bahsi Arttirmak (37.2KB) ✅ GOLD STANDARD - За + Accusative time duration, urgency phrases (Сейчас или никогда/Время идёт/Это последний шанс), stakes raising (повышать ставки), Пока не construction, короче filler word, иначе conditional threats, повышать conjugation, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 | 2026-01-26 | MAIN REPO page_48.html | **DENSIFIED** - Zero Sum & Boundaries / Odesme ve Sinir Koyma (41.5KB) ✅ GOLD STANDARD - В ноль выходить construction (breaking even), boundary phrases (в пределах разумного, это мой предел, хватит vs достаточно), reflexive verbs (договориться, определиться) conjugation, reciprocity expressions (услуга за услугу, баш на баш - Turkce'den!), short-form adjectives (готов/согласен), выходить/выйти conjugation tables, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 | 2026-01-26 | MAIN REPO page_49.html | **DENSIFIED** - Trust Issues & Verification / Guvensizlik ve Dogrulama (44.7KB) ✅ GOLD STANDARD - Trust vocabulary (доверять/проверять/доказать), distrust expressions (Кто тебя знает/Откуда мне знать?), Пока не construction (until not), Imperative mood formation rules, physical commands (залезь/сядь/встань/ляг/подойди), skepticism phrases (Да ладно!/Врёшь!/Не верю), verification demands (Докажи/Покажи мне), "забрать и убежать" fear, Sovyet trust culture, 2 dialogues, 8 drills, 2 cultural notes, summary box |
+| 2026-01-26 | MAIN REPO page_50.html | **DENSIFIED** - The Confrontation / Hesap Sorma ve Yakalanma (48.1KB) ✅ GOLD STANDARD - Confrontation questions (Что ты тут делаешь?/Что ты здесь забыла?), win/lose verbs (выиграть/проиграть) full conjugation, accusation patterns (Ты врала!/Тебя видели там!), defense expressions (Это не я!/Это не то что ты думаешь!), alibi vocabulary (свидетель/доказательство/алиби), phone tension phrases (Ну ответь да/Дай телефон!), признаться (confess) reflexive conjugation, otmazka (bahane) argo, Rus confrontation culture, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 
 ---
 
@@ -455,6 +456,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 31.0*
+*Document Version: 32.0*
 *Last Updated: 2026-01-26*
-*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt. Main repo page_46, page_47, page_48, page_49 densified.*
+*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt. Main repo page_46, page_47, page_48, page_49, page_50 densified.*
