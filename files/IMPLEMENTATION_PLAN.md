@@ -375,12 +375,12 @@ Before marking ANY page complete, verify:
 2. [x] Fix Pages 17-23 (NSFW Core) → 15KB+ each ✅ ALL 7 PAGES GOLD STANDARD 2026-01-25
 3. [x] Create CSS additions for custom classes ✅ COMPLETED 2026-01-25
 
-### High (Next 2 Weeks)
-4. [ ] Fix SKELETON pages (46-75) → 15KB each
-5. [ ] Fix SEVERE pages (23-45) → 15KB each
+### High (Current Priority)
+4. [x] Fix SKELETON pages (46-75) → 15KB each ✅ COMPLETED 2026-01-26 (30 pages densified)
+5. [ ] Fix SEVERE pages (24-45) → 15KB each 🔴 IN PROGRESS (22 pages, currently 3-6KB each)
 
-### Medium (Month 1)
-6. [ ] Fix INADEQUATE pages (06-22) → 15KB each
+### Medium (After SEVERE)
+6. [ ] Fix INADEQUATE pages (01-16) in main repo → 15KB each
 7. [x] Create new Playbook pages 06-16 ✅ ALL COMPLETE (page_06 ✅, page_07 ✅, page_08 ✅, page_09 ✅, page_10 ✅, page_11 ✅, page_12 ✅, page_13 ✅, page_14 ✅, page_15 ✅, page_16 ✅)
 
 ### Ongoing (Month 2+)
@@ -459,6 +459,8 @@ Before marking ANY page complete, verify:
 | 2026-01-26 | MAIN REPO page_73.html | **DENSIFIED** - İş ve Para / Jobs & Money (64.4KB) ✅ GOLD STANDARD - работать/зарабатывать conjugation tables, beauty industry jobs with feminine forms (-ИСТ→-ИСТКА pattern: визажист→визажистка, стилист→стилистка), money expressions with много/мало + Genitive, financial hardship expressions (Денег нет/Сижу на мели/Не хватает), independence expressions (я одна/сама по себе), подработка side hustle culture, informal work vocabulary (халтура/левак/калым), payment frequency adverbs introduction, beauty industry career paths, Russian economic reality post-2014, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 | 2026-01-26 | MAIN REPO page_74.html | **DENSIFIED** - Ödeme ve Sosyal Medya / Payment Terms & Social Media (60KB) ✅ GOLD STANDARD - Payment frequency adverbs (помесячно/понедельно/ежедневно/раз в неделю), платить full conjugation (Т→Ч mutation: плачу), Instagram/VK terminology (актуальные=highlights, сторис, подписчики, лента), birthday expressions (С днём рождения!), желать + Genitive Case construction, поздравлять + ACC + С + Instrumental construction, С + Instrumental celebration pattern, age politeness norms, influencer payment models, Russian birthday traditions, 2 dialogues, 8 drills, 2 cultural notes, summary box |
 | 2026-01-26 | MAIN REPO page_75.html | **DENSIFIED** - Onay ve Sevgi Hitapları / Approval & Terms of Endearment (77.4KB) ✅ GOLD STANDARD - пойдёт/сойдёт/подойдёт approval scale, годиться conjugation + для + Genitive, approval intensity scale (сойдёт→превосходно), terms of endearment categories (animal: зайка/котёнок/рыбка, nature: солнышко/звёздочка, adjective: любимая/дорогая), diminutive suffixes (-шка/-очка/-ечка/-ышко/-ёнок), gender variations (милашка→милаш, красавица→красавчик), -АШКА slang suffix (симпатяшка/няшка/мимишка), compliment verbs поразить/впечатлить/удивить/очаровать full conjugations, admiration verbs восхищаться/любоваться + Instrumental, обожать (stronger than любить), "Ты меня поразила" key phrase, Russian endearment culture, "пойдёт" neutral approval culture, 2 dialogues, 8 drills, 2 cultural notes, summary box |
+| 2026-01-26 | MAIN REPO page_24.html | **DENSIFIED** - Oral Mekanikleri / Oral Mechanics (40.6KB) ✅ GOLD STANDARD - Oral verbs expanded vocabulary (лизать/сосать/глотать/целовать/кусать/дуть/ласкать/облизывать/заглатывать/кончать/стонать/дрочить), лизать conjugation with З→Ж consonant mutation, глотать regular conjugation + aspect pair проглотить, Comparative adjectives (быстрее/медленнее/глубже/нежнее/сильнее) for speed/intensity control, глубже irregular form (К→Ж mutation), Instrumental Case for body parts (языком/губами/рукой/пальцами/зубами/горлом), technique directives table, sensory feedback expressions (Ты сладкая/Как хорошо пахнет/Ты такая мокрая), orgasm/final expressions (Кончаю!/Я близко/Не останавливайся!/Глотай/Выплюни), Russian intimate communication culture, "глотать или нет" discussion etiquette, 2 dialogues, 6 drills, 2 cultural notes, summary box |
+| 2026-01-26 | MAIN REPO page_25.html | **DENSIFIED** - Nightlife ve Lojistik / Nightlife & Logistics (45.0KB) ✅ GOLD STANDARD - Nightlife vocabulary (клуб/бар/тусовка/вечеринка/танцпол/диджей/вышибала/фейсконтроль/гардероб), isolation phrases (Тут слишком громко/Пошли на улицу/Хочешь подышать свежим воздухом?), vape culture (под/тяга/вкус) as conversation opener, drink vocabulary (пиво/вино/водка/шампанское/коктейль/шот), bar ordering phrases (Два пива/Я угощаю/За знакомство!/Счёт пожалуйста), пить irregular conjugation (пью/пьёшь/пьёт), intoxication levels scale (трезвая→подвыпившая→навеселе→пьяная→в говно→в хлам→в отключке), motion verbs пойти vs поехать distinction (walking vs vehicle), home invitation phrases (Поехали ко мне/Хочешь зайти на чай?), вызвать conjugation for taxi, Russian toast culture (За знакомство!/За любовь!), "зайти на чай" universal excuse cultural note, 2 dialogues, 6 drills, 2 cultural notes, summary box |
 
 ---
 
@@ -481,6 +483,6 @@ This page demonstrates:
 
 ---
 
-*Document Version: 51.0*
+*Document Version: 53.0*
 *Last Updated: 2026-01-26*
-*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı ve arşivlendi. Yeni sayfa eklenmeyecek. Odak: Main repo sayfalarını düzelt. Main repo page_46-page_75 densified (30 sayfa). ANA REPO TAMAMLANDI (75 sayfa).*
+*Project Status: 🛑 PLAYBOOK FROZEN - Sayfa 01-19 tamamlandı. Main repo page_17-25 ve page_46-75 densified. ⚠️ KALAN: Main repo pages 26-45 hala SEVERE (3-6KB) - densification gerekli. Pages 01-16 INADEQUATE.*
