@@ -61,7 +61,7 @@
 - Average page size: ~45KB
 - Largest pages: page_71 (82.8KB), page_75 (77.4KB), page_72 (63KB)
 
-**Git Tags:** main repo v0.0.38, playbook v0.0.27
+**Git Tags:** main repo v0.0.38, playbook v0.0.28
 
 ---
 
