@@ -191,6 +191,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.46 | Git tag for page_31 (Dative for Recipients) |
 | 2026-01-29 | page_31.html | Dative for Recipients (38KB) - comprehensive recipient verbs, 4 verb categories, Dative+Infinitive patterns, 11 drill sections, 2 dialogues, reading passage |
 | 2026-01-29 | v0.0.45 | Git tag for page_30 (Dative Case Introduction) |
 | 2026-01-29 | page_30.html | Dative Case Introduction (40KB) - comprehensive intro, нравиться structure, к/по prepositions, emotional expressions, 7+ drill sections, 2 dialogues |
@@ -231,7 +232,7 @@ This page demonstrates:
 
 ---
 
-*Document Version: 82.0*
+*Document Version: 83.0*
 *Last Updated: 2026-01-29*
 *Project Status: PHASE 2 IN PROGRESS. 31 pages complete. Dative Case series continued.*
 
