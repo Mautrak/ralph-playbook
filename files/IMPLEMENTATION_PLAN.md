@@ -91,7 +91,7 @@
 | 32 | Instrumental Case Introduction | ✅ COMPLETE | 49KB |
 | 33 | Prepositional Case Introduction | ✅ COMPLETE | 50KB |
 | 34 | Cases with Prepositions | ✅ COMPLETE | 50KB |
-| 35 | Mixed Cases Practice | ⏳ PENDING | - |
+| 35 | Mixed Cases Practice | ✅ COMPLETE | 57KB |
 | 36 | Cases in Dialogue: Bar Scenario | ⏳ PENDING | - |
 | 37 | Cases in Dialogue: Date Scenario | ⏳ PENDING | - |
 | 38 | Case Errors to Avoid | ⏳ PENDING | - |
@@ -191,6 +191,8 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.50 | Git tag for page_35 (Mixed Cases Practice) |
+| 2026-01-29 | page_35.html | Mixed Cases Practice (57KB) - comprehensive all-6-cases practice, feminine/masculine/pronoun tables, 20+ drill sections, preposition+case combos, multi-case sentences, 2 dialogues, reading passage with case analysis, error correction exercises |
 | 2026-01-29 | v0.0.49 | Git tag for page_34 (Cases with Prepositions) |
 | 2026-01-29 | page_34.html | Cases with Prepositions (50KB) - comprehensive preposition+case reference, all 6 cases with their prepositions, dual-case prepositions (в/на/за/под), movement vs location rules, 7+ drill sections, 2 dialogues, reading passage |
 | 2026-01-29 | v0.0.48 | Git tag for page_33 (Prepositional Case Introduction) |
@@ -238,7 +240,7 @@ This page demonstrates:
 
 ---
 
-*Document Version: 86.0*
+*Document Version: 87.0*
 *Last Updated: 2026-01-29*
-*Project Status: PHASE 2 IN PROGRESS. 34 pages complete. All 6 Cases introduced! Cases with Prepositions complete.*
+*Project Status: PHASE 2 IN PROGRESS. 35 pages complete. All 6 Cases introduced! Mixed Cases Practice complete.*
 
