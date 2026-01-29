@@ -4,7 +4,7 @@
 
 **Last Updated:** 2026-01-29
 **Status:** PHASE 2 IN PROGRESS - Continuing Content Development
-**Total Pages:** 37 pages complete + expansion in progress
+**Total Pages:** 38 pages complete + expansion in progress
 **Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Ruscasi
 
 ---
@@ -94,7 +94,7 @@
 | 35 | Mixed Cases Practice | ✅ COMPLETE | 57KB |
 | 36 | Cases in Dialogue: Bar Scenario | ✅ COMPLETE | 52KB |
 | 37 | Cases in Dialogue: Date Scenario | ✅ COMPLETE | 53KB |
-| 38 | Case Errors to Avoid | ⏳ PENDING | - |
+| 38 | Case Errors to Avoid | ✅ COMPLETE | 52KB |
 | 39 | Cases Review & Summary | ⏳ PENDING | - |
 | 40 | Cases Final Test | ⏳ PENDING | - |
 
@@ -191,6 +191,8 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.53 | Git tag for page_38 (Case Errors to Avoid) |
+| 2026-01-29 | page_38.html | Case Errors to Avoid (52KB) - Top 10 Case errors Turkish speakers make, preposition+case errors, verb+case requirements, animate masculine Accusative, нравиться structure, plural case forms, error correction exercises, 15+ drill sections, final test |
 | 2026-01-29 | v0.0.52 | Git tag for page_37 (Cases in Dialogue: Date Scenario) |
 | 2026-01-29 | page_37.html | Cases in Dialogue: Date Scenario (53KB) - randevu vocabulary, restoran siparisi, kendinden bahsetme kaliplari, duygu ifadeleri, gelecek plan yapma, hesap odeme, 5 dialogues, acik iliski aciklamasi, iltifatlar, cultural notes, 13+ drill sections, reading passage with full case analysis |
 | 2026-01-29 | v0.0.51 | Git tag for page_36 (Cases in Dialogue: Bar Scenario) |
@@ -244,7 +246,7 @@ This page demonstrates:
 
 ---
 
-*Document Version: 89.0*
+*Document Version: 90.0*
 *Last Updated: 2026-01-29*
-*Project Status: PHASE 2 IN PROGRESS. 37 pages complete. All 6 Cases introduced! Date Scenario dialogue complete.*
+*Project Status: PHASE 2 IN PROGRESS. 38 pages complete. Case Errors to Avoid lesson complete!*
 
