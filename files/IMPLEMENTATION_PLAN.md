@@ -191,6 +191,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.36 | Git tag for page_21 (Accusative with Animate Nouns) |
 | 2026-01-29 | page_21.html | Accusative with Animate Nouns (41KB) - comprehensive canlilik coverage |
 | 2026-01-29 | v0.0.35 | Git tag for page_20 + IMPLEMENTATION_PLAN fix |
 | 2026-01-29 | page_20.html | Accusative Case Introduction (32KB) - Phase 2 first page |
