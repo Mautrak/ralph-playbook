@@ -4,7 +4,7 @@
 
 **Last Updated:** 2026-01-29
 **Status:** PHASE 2 IN PROGRESS - Continuing Content Development
-**Total Pages:** 26 pages complete + expansion in progress
+**Total Pages:** 27 pages complete + expansion in progress
 **Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Ruscasi
 
 ---
@@ -83,7 +83,7 @@
 | 24 | Genitive Case Introduction | ✅ COMPLETE | 32KB |
 | 25 | Genitive of Possession | ✅ COMPLETE | 39KB |
 | 26 | Genitive with Negation | ✅ COMPLETE | 41KB |
-| 27 | Genitive with Numbers | ⏳ PENDING | - |
+| 27 | Genitive with Numbers | ✅ COMPLETE | 40KB |
 | 28 | Genitive in Relationship Talk | ⏳ PENDING | - |
 | 29 | Genitive Practice & Drills | ⏳ PENDING | - |
 | 30 | Dative Case Introduction | ⏳ PENDING | - |
@@ -191,6 +191,8 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.42 | Git tag for page_27 (Genitive with Numbers) |
+| 2026-01-29 | page_27.html | Genitive with Numbers (40KB) - number+case rules, age expressions, time/money vocabulary, 12 drill sections, 2 dialogues |
 | 2026-01-29 | v0.0.41 | Git tag for page_26 (Genitive with Negation) |
 | 2026-01-29 | page_26.html | Genitive with Negation (41KB) - нет+Genitive, negation patterns, double negation, dialogues, 6 drill sections |
 | 2026-01-29 | v0.0.40 | Git tag for page_25 (Genitive of Possession) |
@@ -223,7 +225,7 @@ This page demonstrates:
 
 ---
 
-*Document Version: 77.0*
+*Document Version: 78.0*
 *Last Updated: 2026-01-29*
-*Project Status: PHASE 2 IN PROGRESS. 26 pages complete. Genitive Case series continuing.*
+*Project Status: PHASE 2 IN PROGRESS. 27 pages complete. Genitive Case series continuing.*
 
