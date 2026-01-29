@@ -2,9 +2,9 @@
 
 ## PROJECT STATUS OVERVIEW
 
-**Last Updated:** 2026-01-28
-**Status:** PHASE 1-3 COMPLETE - All 75 pages densified, ready for Phase 4
-**Total Pages (Main Repo):** 75 pages (25KB-83KB each)
+**Last Updated:** 2026-01-29
+**Status:** PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive)
+**Total Pages (Main Repo):** 76 pages complete + Phase 4 expansion in progress
 **Playbook:** 19 pages (FROZEN - archived)
 **Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Ruscasi
 
@@ -67,27 +67,57 @@
 
 ---
 
-## PHASE 4: ADVANCED CONTENT (Future - Pages 76-368)
+## PHASE 4: ADVANCED CONTENT (Pages 76-368)
 
-### Proposed Batch Structure:
+### Current Batch: **BATCH 1 - Cases Deep Dive (Pages 76-95)**
 
-| Batch | Pages | Focus Area |
-|-------|-------|------------|
-| 1 | 76-95 | Cases Deep Dive (Accusative, Genitive) |
-| 2 | 96-115 | Verb Aspects (Perfective/Imperfective) |
-| 3 | 116-135 | Motion Verbs (idti/khodit) |
-| 4 | 136-155 | Advanced Flirting & Compliments |
-| 5 | 156-175 | Nightlife Scenarios |
-| 6 | 176-195 | Relationship Vocabulary |
-| 7 | 196-215 | Advanced NSFW Content |
-| 8 | 216-235 | Conflict & Resolution |
-| 9 | 236-255 | Slang Deep Dive |
-| 10 | 256-275 | Internet/Text Russian |
-| 11 | 276-295 | Cultural Deep Dives |
-| 12 | 296-315 | Advanced Grammar |
-| 13 | 316-335 | Reading Comprehension |
-| 14 | 336-355 | Speaking Practice |
-| 15 | 356-368 | Reference & Appendices |
+**Focus:** Accusative & Genitive cases in practical contexts
+**Target:** 20 pages, each 25KB+ with full content
+
+### Batch 1 Progress Tracker:
+
+| Page | Topic | Status | Size |
+|------|-------|--------|------|
+| 76 | Accusative Case Introduction | ✅ COMPLETE | 72KB |
+| 77 | Accusative with Animate Nouns | ⏳ PENDING | - |
+| 78 | Accusative in Flirting Contexts | ⏳ PENDING | - |
+| 79 | Accusative Practice & Drills | ⏳ PENDING | - |
+| 80 | Genitive Case Introduction | ⏳ PENDING | - |
+| 81 | Genitive of Possession | ⏳ PENDING | - |
+| 82 | Genitive with Negation | ⏳ PENDING | - |
+| 83 | Genitive with Numbers | ⏳ PENDING | - |
+| 84 | Genitive in Relationship Talk | ⏳ PENDING | - |
+| 85 | Genitive Practice & Drills | ⏳ PENDING | - |
+| 86 | Cases in Questions (Kogo? Chto?) | ⏳ PENDING | - |
+| 87 | Cases with Prepositions | ⏳ PENDING | - |
+| 88 | Mixed Cases Practice | ⏳ PENDING | - |
+| 89 | Cases in Dialogue: Bar Scenario | ⏳ PENDING | - |
+| 90 | Cases in Dialogue: Date Scenario | ⏳ PENDING | - |
+| 91 | Case Errors to Avoid | ⏳ PENDING | - |
+| 92 | Feminine Case Endings Focus | ⏳ PENDING | - |
+| 93 | Cases in Compliments | ⏳ PENDING | - |
+| 94 | Cases Review & Summary | ⏳ PENDING | - |
+| 95 | Cases Final Test | ⏳ PENDING | - |
+
+### Full Batch Structure:
+
+| Batch | Pages | Focus Area | Status |
+|-------|-------|------------|--------|
+| **1** | **76-95** | **Cases Deep Dive (Accusative, Genitive)** | **🔄 IN PROGRESS** |
+| 2 | 96-115 | Verb Aspects (Perfective/Imperfective) | ⏳ PENDING |
+| 3 | 116-135 | Motion Verbs (idti/khodit) | ⏳ PENDING |
+| 4 | 136-155 | Advanced Flirting & Compliments | ⏳ PENDING |
+| 5 | 156-175 | Nightlife Scenarios | ⏳ PENDING |
+| 6 | 176-195 | Relationship Vocabulary | ⏳ PENDING |
+| 7 | 196-215 | Advanced NSFW Content | ⏳ PENDING |
+| 8 | 216-235 | Conflict & Resolution | ⏳ PENDING |
+| 9 | 236-255 | Slang Deep Dive | ⏳ PENDING |
+| 10 | 256-275 | Internet/Text Russian | ⏳ PENDING |
+| 11 | 276-295 | Cultural Deep Dives | ⏳ PENDING |
+| 12 | 296-315 | Advanced Grammar | ⏳ PENDING |
+| 13 | 316-335 | Reading Comprehension | ⏳ PENDING |
+| 14 | 336-355 | Speaking Practice | ⏳ PENDING |
+| 15 | 356-368 | Reference & Appendices | ⏳ PENDING |
 
 ---
 
@@ -182,6 +212,8 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | page_76.html | Accusative Case Introduction (72KB) - Phase 4 first page |
+| 2026-01-29 | PHASE 4 START | Phase 4 begins - Batch 1 (Pages 76-95: Cases Deep Dive) |
 | 2026-01-28 | PLAYBOOK AUDIT | Verified clean state: no inline styles, correct navigation |
 | 2026-01-28 | BORDERLINE POLISH | All borderline pages verified dense (34KB-64KB) |
 | 2026-01-28 | style.css | Playbook CSS components merged (447 lines) |
@@ -191,10 +223,9 @@ This page demonstrates:
 | 2026-01-26 | pages 24-45 | All severe pages densified (25-58KB each) |
 | 2026-01-26 | pages 06-16 | New content bridge pages created |
 | 2026-01-25 | pages 17-23 | NSFW Core all GOLD STANDARD |
-| 2026-01-25 | CSS additions | Standardized classes for main repo |
 
 ---
 
-*Document Version: 67.0*
-*Last Updated: 2026-01-28*
-*Project Status: PHASE 1-3 COMPLETE - All 75 main repo pages densified (20KB-83KB each, all meeting quality standards). Playbook FROZEN at 19 pages. Ready for Phase 4 expansion (pages 76+) when needed.*
+*Document Version: 69.0*
+*Last Updated: 2026-01-29*
+*Project Status: PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive). 76 pages complete. Playbook FROZEN at 19 pages.*
