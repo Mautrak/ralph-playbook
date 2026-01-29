@@ -191,6 +191,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.35 | Git tag for page_20 + IMPLEMENTATION_PLAN fix |
 | 2026-01-29 | page_20.html | Accusative Case Introduction (32KB) - Phase 2 first page |
 | 2026-01-29 | PLAN CORRECTED | Fixed discrepancy - actual page count is 19, not 78 |
 | 2026-01-29 | AUDIT | Discovered IMPLEMENTATION_PLAN was out of sync with actual files |
