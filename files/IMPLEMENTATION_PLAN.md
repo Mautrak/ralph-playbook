@@ -3,8 +3,8 @@
 ## PROJECT STATUS OVERVIEW
 
 **Last Updated:** 2026-01-29
-**Status:** PHASE 2 COMPLETE - Cases Section Finished
-**Total Pages:** 40 pages complete - Cases curriculum finished
+**Status:** PHASE 3 IN PROGRESS - Advanced Verbal Structures
+**Total Pages:** 41 pages complete - Phase 3 started with Verbal Aspect
 **Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Ruscasi
 
 ---
@@ -100,6 +100,39 @@
 
 ---
 
+## PHASE 3: ADVANCED VERBAL STRUCTURES (Pages 41-60)
+
+### Current Focus: Verbal Aspect, Motion Verbs, and Advanced Verb Forms
+
+**Target:** Master Russian verbal aspect (perfective/imperfective), motion verbs, and advanced verb patterns essential for natural conversation.
+
+### Progress Tracker:
+
+| Page | Topic | Status | Size |
+|------|-------|--------|------|
+| 41 | Verbal Aspect Introduction | ✅ COMPLETE | 25KB |
+| 42 | Perfective Aspect in Detail | ⏳ PLANNED | - |
+| 43 | Imperfective Aspect in Detail | ⏳ PLANNED | - |
+| 44 | Aspect Pairs and Common Verbs | ⏳ PLANNED | - |
+| 45 | Aspect in Past Tense | ⏳ PLANNED | - |
+| 46 | Aspect in Future Tense | ⏳ PLANNED | - |
+| 47 | Motion Verbs Introduction (идти/ходить) | ⏳ PLANNED | - |
+| 48 | Unidirectional vs Multidirectional Motion | ⏳ PLANNED | - |
+| 49 | Prefixed Motion Verbs | ⏳ PLANNED | - |
+| 50 | Motion Verbs Practice | ⏳ PLANNED | - |
+| 51 | Reflexive Verbs (возвратные глаголы) | ⏳ PLANNED | - |
+| 52 | Common Reflexive Verbs in Daily Life | ⏳ PLANNED | - |
+| 53 | Imperative Mood (Commands) | ⏳ PLANNED | - |
+| 54 | Imperative in Flirting & Intimacy | ⏳ PLANNED | - |
+| 55 | Conditional Mood (бы constructions) | ⏳ PLANNED | - |
+| 56 | Expressing Wishes and Hypotheticals | ⏳ PLANNED | - |
+| 57 | Advanced Verb Patterns Practice | ⏳ PLANNED | - |
+| 58 | Verbs in Dialogue: Night Out Scenario | ⏳ PLANNED | - |
+| 59 | Verbs in Dialogue: Relationship Scenario | ⏳ PLANNED | - |
+| 60 | Verbal Structures Final Test | ⏳ PLANNED | - |
+
+---
+
 ## QUALITY CHECKLIST (Per Page)
 
 Before marking ANY page complete, verify:
@@ -191,6 +224,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | page_41.html | Verbal Aspect Introduction (25KB) - PHASE 3 START! Aspect (Vid) concept, Imperfective vs Perfective, aspect pairs, prefix/suffix formation, flort context examples, 6 drill sections, 2 dialogues, reading passage |
 | 2026-01-29 | v0.0.55 | Git tag for page_40 (Cases Final Test) - PHASE 2 COMPLETE |
 | 2026-01-29 | page_40.html | Cases Final Test (31KB) - comprehensive 100-point final exam, 8 sections (noun/pronoun declensions, preposition+case, verb+case, special structures, multiple choice, error correction, translation), bonus section, scoring system, evaluation table, full Case system review |
 | 2026-01-29 | v0.0.54 | Git tag for page_39 (Cases Review & Summary) |
@@ -250,7 +284,7 @@ This page demonstrates:
 
 ---
 
-*Document Version: 92.0*
+*Document Version: 93.0*
 *Last Updated: 2026-01-29*
-*Project Status: PHASE 2 COMPLETE! 40 pages complete. Cases Final Test complete! Full Cases curriculum finished!*
+*Project Status: PHASE 3 IN PROGRESS! 40 pages complete. Starting Verbal Aspect curriculum!*
 
