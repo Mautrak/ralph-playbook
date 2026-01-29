@@ -191,6 +191,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-29 | v0.0.45 | Git tag for page_30 (Dative Case Introduction) |
 | 2026-01-29 | page_30.html | Dative Case Introduction (40KB) - comprehensive intro, нравиться structure, к/по prepositions, emotional expressions, 7+ drill sections, 2 dialogues |
 | 2026-01-29 | page_29.html | Genitive Practice & Drills (46KB) - comprehensive exercises covering all Genitive topics, 15+ drill sections, multiple choice tests, dialogue completion |
 | 2026-01-29 | v0.0.43 | Git tag for page_28 (Genitive in Relationship Talk) |
