@@ -1,5 +1,50 @@
 # IMPLEMENTATION PLAN: Rusca Calis Textbook
 
+---
+
+## ⚠️ KRITIK UYARI - MUTLAKA OKU ⚠️
+
+### BU HATA BIR DAHA YAPILMAYACAK
+
+**2026-01-29 Olayi:** Onceki Claude session'lari bu dosyayi yanlis "duzeltmis" ve submodule icinde yanlis sayfalar olusturmus. Bu tamamen YANLIS.
+
+### HARDCODED PATHLER - DEGISTIRME
+
+```
+MAIN REPO (GERCEK PROJE):
+├── Path: c:/Users/Sturm/Downloads/ruscacalis/
+├── Pages: c:/Users/Sturm/Downloads/ruscacalis/pages/
+├── CSS: c:/Users/Sturm/Downloads/ruscacalis/style.css
+├── Index: c:/Users/Sturm/Downloads/ruscacalis/index.html
+└── Sayfa Sayisi: 78+ (page_01.html - page_78.html ve devami)
+
+SUBMODULE (PLAYBOOK - FROZEN/ARSIV):
+├── Path: c:/Users/Sturm/Downloads/ruscacalis/ralph-playbook/
+├── Pages: c:/Users/Sturm/Downloads/ruscacalis/ralph-playbook/files/pages/
+├── Sayfa Sayisi: 19 (page_01.html - page_19.html) - FROZEN
+└── Bu klasore YENI SAYFA EKLENMEYECEK!
+```
+
+### KURALLAR
+
+1. **YENI SAYFALAR SADECE MAIN REPO'YA EKLENIR:**
+   - `c:/Users/Sturm/Downloads/ruscacalis/pages/page_XX.html`
+
+2. **SUBMODULE'A DOKUNMA:**
+   - `ralph-playbook/files/pages/` klasoru FROZEN
+   - Sadece 19 sayfa var ve kalacak
+
+3. **BU DOSYAYI "DUZELTME":**
+   - Bu dosyadaki bilgiler DOGRU
+   - "Discrepancy" yok - main repo'da 78+ sayfa var
+   - Submodule'da 19 sayfa var - bu DOGRU
+
+4. **VERIFICATION:**
+   - Yeni sayfa eklemeden once: `ls c:/Users/Sturm/Downloads/ruscacalis/pages/ | wc -l`
+   - Submodule kontrolu: `ls c:/Users/Sturm/Downloads/ruscacalis/ralph-playbook/files/pages/ | wc -l` (19 olmali)
+
+---
+
 ## PROJECT STATUS OVERVIEW
 
 **Last Updated:** 2026-01-29
@@ -228,6 +273,17 @@ This page demonstrates:
 
 ---
 
-*Document Version: 71.0*
-*Last Updated: 2026-01-29*
+## DATA INTEGRITY NOTE
+
+**2026-01-30 FIX:** Submodule `eed4da971bad71ecd65de9a7bc9c079afff4cfb2` commit'ine reset edildi. Onceki yanlis commitler (8432af3 ve sonrasi) discard edildi. Bu commitlerde Claude yanlislikla main repo'yu gormezden gelip submodule icinde 41 sayfa olusturmustu. Bu tamamen YANLIS'ti.
+
+**Dogru Durum:**
+- Main repo: 78 sayfa (page_01 - page_78) + Phase 4 devam ediyor
+- Submodule: 19 sayfa (FROZEN)
+
+---
+
+*Document Version: 72.0*
+*Last Updated: 2026-01-30*
 *Project Status: PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive). 78 pages complete. Playbook FROZEN at 19 pages.*
+*KRITIK: Submodule commit eed4da9'da FROZEN. Yeni sayfalar SADECE main repo'ya eklenir.*
