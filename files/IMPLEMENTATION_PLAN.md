@@ -49,7 +49,7 @@ SUBMODULE (PLAYBOOK - FROZEN/ARSIV):
 
 **Last Updated:** 2026-01-30
 **Status:** PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive)
-**Total Pages (Main Repo):** 86 pages complete + Phase 4 expansion in progress
+**Total Pages (Main Repo):** 87 pages complete + Phase 4 expansion in progress
 **Playbook:** 19 pages (FROZEN - archived)
 **Quality Standard:** "Penguin Books Modern UI" + Pratik Sokak Ruscasi
 
@@ -134,7 +134,7 @@ SUBMODULE (PLAYBOOK - FROZEN/ARSIV):
 | 84 | Genitive in Relationship Talk | ✅ COMPLETE | 70KB |
 | 85 | Genitive Practice & Drills | ✅ COMPLETE | 55KB |
 | 86 | Cases in Questions (Kogo? Chto?) | ✅ COMPLETE | 72KB |
-| 87 | Cases with Prepositions | ⏳ PENDING | - |
+| 87 | Cases with Prepositions | ✅ COMPLETE | 84KB |
 | 88 | Mixed Cases Practice | ⏳ PENDING | - |
 | 89 | Cases in Dialogue: Bar Scenario | ⏳ PENDING | - |
 | 90 | Cases in Dialogue: Date Scenario | ⏳ PENDING | - |
@@ -257,6 +257,7 @@ This page demonstrates:
 
 | Date | Item | Description |
 |------|------|-------------|
+| 2026-01-30 | page_87.html | Cases with Prepositions (84KB) - Edatlar ve case'ler |
 | 2026-01-30 | page_86.html | Cases in Questions (72KB) - Kogo? Chto? soru kelimeleri |
 | 2026-01-30 | page_85.html | Genitive Practice & Drills (55KB) - Kapsamli Genitive pratik |
 | 2026-01-30 | page_84.html | Genitive in Relationship Talk (70KB) - Iliski konusmalarinda Genitive |
@@ -286,12 +287,12 @@ This page demonstrates:
 **2026-01-30 FIX:** Submodule `eed4da971bad71ecd65de9a7bc9c079afff4cfb2` commit'ine reset edildi. Onceki yanlis commitler (8432af3 ve sonrasi) discard edildi. Bu commitlerde Claude yanlislikla main repo'yu gormezden gelip submodule icinde 41 sayfa olusturmustu. Bu tamamen YANLIS'ti.
 
 **Dogru Durum:**
-- Main repo: 86 sayfa (page_01 - page_86) + Phase 4 devam ediyor
+- Main repo: 87 sayfa (page_01 - page_87) + Phase 4 devam ediyor
 - Submodule: 19 sayfa (FROZEN)
 
 ---
 
 *Document Version: 78.0*
 *Last Updated: 2026-01-30*
-*Project Status: PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive). 86 pages complete. Playbook FROZEN at 19 pages.*
+*Project Status: PHASE 4 IN PROGRESS - Batch 1 (Pages 76-95: Cases Deep Dive). 87 pages complete. Playbook FROZEN at 19 pages.*
 *KRITIK: Submodule commit eed4da9'da FROZEN. Yeni sayfalar SADECE main repo'ya eklenir.*
