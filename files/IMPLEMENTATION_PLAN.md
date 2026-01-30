@@ -108,7 +108,7 @@ SUBMODULE (PLAYBOOK - FROZEN/ARSIV):
 - Largest pages: page_71 (82.8KB), page_75 (77.4KB), page_72 (63KB)
 - Note: All pages meet quality standards with full content (vocab, grammar, drills, dialogues, cultural notes)
 
-**Git Tags:** main repo v0.0.43, playbook v0.0.34
+**Git Tags:** main repo v0.0.44, playbook v0.0.57
 
 ---
 
